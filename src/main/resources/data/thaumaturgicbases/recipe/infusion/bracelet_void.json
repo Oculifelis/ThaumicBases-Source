@@ -1,0 +1,55 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 6
+    }
+  ],
+  "catalyst": "thaumaturgicbases:wand_rod_void",
+  "components": [
+    "thaumaturge:wand_cap_thaumium",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:ingot_void",
+    "thaumaturgicbases:crystal_block_mixed",
+    "thaumaturge:wand_cap_thaumium",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:ingot_void",
+    "thaumaturgicbases:crystal_block_mixed"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_void"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_void",
+        "rod": "thaumaturgicbases:bracelet_void",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "void"
+        ]
+      }
+    }
+  }
+}

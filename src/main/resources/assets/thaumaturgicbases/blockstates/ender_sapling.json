@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "thaumaturgicbases:block/ender_sapling"
+    },
+    "stage=1": {
+      "model": "thaumaturgicbases:block/ender_sapling"
+    }
+  }
+}

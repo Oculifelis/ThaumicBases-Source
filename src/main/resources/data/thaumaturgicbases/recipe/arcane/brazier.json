@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "S": "thaumaturge:slab_arcane_stone",
+    "C": "#minecraft:coals",
+    "V": "thaumaturge:stone_arcane"
+  },
+  "pattern": [
+    "SCS",
+    " V ",
+    "SSS"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:brazier"
+  },
+  "result": {
+    "id": "thaumaturgicbases:brazier"
+  },
+  "vis": 8
+}

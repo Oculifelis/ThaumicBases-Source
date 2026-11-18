@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    }
+  ],
+  "key": {
+    "#": "thaumaturge:metal_thaumium",
+    "$": "thaumaturge:ingot_thaumium"
+  },
+  "pattern": [
+    "###",
+    " $ ",
+    "$$$"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:thaumic_anvil"
+  },
+  "result": {
+    "id": "thaumaturgicbases:thaumic_anvil"
+  },
+  "vis": 50
+}

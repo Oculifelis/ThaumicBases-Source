@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 10
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_round": {
+        "upgrade": "thaumaturgicbases:knowledge",
+        "level": 4
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:scribing_tools",
+    "thaumaturge:salis_mundus",
+    "minecraft:book",
+    "thaumaturge:salis_mundus",
+    "minecraft:paper"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_knowledge"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_round": {
+      "upgrade": "thaumaturgicbases:knowledge",
+      "level": 5
+    }
+  }
+}

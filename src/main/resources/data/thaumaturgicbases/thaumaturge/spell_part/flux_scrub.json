@@ -1,0 +1,13 @@
+{
+  "aspect": "thaumaturge:ordo",
+  "behavior": {
+    "type": "thaumaturgicbases:flux_scrub"
+  },
+  "color": 11167453,
+  "complexity": 3,
+  "icon": "thaumaturgicbases:textures/foci/flux_scrub.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_flux"
+  },
+  "vis": 0.05
+}

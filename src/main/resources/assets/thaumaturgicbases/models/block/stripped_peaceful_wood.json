@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thaumaturgicbases:block/stripped_peaceful_log",
+    "side": "thaumaturgicbases:block/stripped_peaceful_log"
+  }
+}

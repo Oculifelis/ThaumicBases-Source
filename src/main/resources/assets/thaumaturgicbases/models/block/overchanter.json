@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "thaumaturgicbases:block/overchanter_top",
+    "side": "thaumaturgicbases:block/overchanter_side",
+    "bottom": "thaumaturgicbases:block/overchanter_bottom"
+  }
+}

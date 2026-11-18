@@ -1,0 +1,67 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:sapling_greatwood",
+  "components": [
+    "thaumaturge:cinderpearl",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ignis"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "thaumaturge:cinderpearl",
+    "thaumaturge:ethereal_bloom",
+    "thaumaturge:cinderpearl",
+    "thaumaturge:cinderpearl",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ignis"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "minecraft:lava_bucket",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ignis"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "thaumaturge:ethereal_bloom"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicbases:nether_sapling"
+  },
+  "result": {
+    "id": "thaumaturgicbases:nether_sapling"
+  }
+}

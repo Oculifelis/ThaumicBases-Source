@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.lazullia.title",
+  "parents": [
+    "thaumaturgicbases:metalleat"
+  ],
+  "column": -8,
+  "row": -5,
+  "icons": [
+    "thaumaturgicbases:lazullia_seeds"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.lazullia.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.lazullia.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/lazullia_seeds"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

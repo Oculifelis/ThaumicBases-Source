@@ -1,0 +1,52 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.overchanter.title",
+  "parents": [
+    "thaumaturge:infusion"
+  ],
+  "column": -5,
+  "row": -3,
+  "icons": [
+    "thaumaturgicbases:overchanter"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.overchanter.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.overchanter.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/overchanter"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

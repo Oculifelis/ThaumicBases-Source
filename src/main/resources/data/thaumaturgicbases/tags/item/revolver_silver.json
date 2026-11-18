@@ -1,0 +1,9 @@
+{
+  "values": [
+    "thaumaturge:primal_charm",
+    {
+      "id": "#c:ingots/silver",
+      "required": false
+    }
+  ]
+}

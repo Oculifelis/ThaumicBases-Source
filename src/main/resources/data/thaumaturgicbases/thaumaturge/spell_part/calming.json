@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:cognitio",
+  "behavior": {
+    "type": "thaumaturgicbases:flux_scrub",
+    "warp": -1
+  },
+  "color": 14535935,
+  "complexity": 4,
+  "icon": "thaumaturgicbases:textures/foci/calming.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_flux"
+  },
+  "vis": 0.05
+}

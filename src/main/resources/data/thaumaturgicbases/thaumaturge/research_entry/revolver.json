@@ -1,0 +1,56 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver.title",
+  "parents": [
+    "thaumaturge:infusion"
+  ],
+  "column": -16,
+  "row": -7,
+  "icons": [
+    "thaumaturgicbases:revolver"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

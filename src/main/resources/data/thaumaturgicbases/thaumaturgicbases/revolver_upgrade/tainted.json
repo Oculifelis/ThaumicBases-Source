@@ -1,0 +1,15 @@
+{
+  "slot": "round",
+  "max_level": 3,
+  "match": {
+    "tag": "thaumaturge:tainted"
+  },
+  "match_multiplier": 0.625,
+  "else_per_level": 1.2,
+  "on_hit": {
+    "effect": "thaumaturge:flux_taint",
+    "duration": 200,
+    "amplifier": 1,
+    "chance": 0.1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "@": "#c:nuggets/iron",
+    "#": "thaumaturge:plank_greatwood",
+    "$": "thaumaturge:crystal_ordo"
+  },
+  "pattern": [
+    "@#@",
+    "#$#",
+    "@#@"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:iron_greatwood",
+    "count": 4
+  }
+}

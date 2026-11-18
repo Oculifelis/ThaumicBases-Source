@@ -1,0 +1,12 @@
+{
+  "color": 13816320,
+  "steps": [
+    {
+      "modifiers": [
+        "none"
+      ],
+      "set_modifier": "bright",
+      "ticks": 24000
+    }
+  ]
+}

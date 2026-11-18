@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#thaumaturgicbases:nether_logs"
+  ],
+  "result": {
+    "id": "minecraft:spruce_planks",
+    "count": 4
+  }
+}

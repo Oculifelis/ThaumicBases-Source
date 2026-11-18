@@ -1,0 +1,10 @@
+{
+  "color": 16777215,
+  "steps": [
+    {
+      "type": "normal",
+      "set_type": "tainted",
+      "ticks": 7200
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:stone_bricks",
+  "research": {
+    "entry": "thaumaturgicbases:alchemy_restoration"
+  },
+  "result": {
+    "id": "minecraft:chiseled_stone_bricks"
+  }
+}

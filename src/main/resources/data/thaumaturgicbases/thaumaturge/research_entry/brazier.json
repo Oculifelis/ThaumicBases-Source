@@ -1,0 +1,53 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.brazier.title",
+  "parents": [
+    "thaumaturgicbases:campfire"
+  ],
+  "column": 9,
+  "row": 7,
+  "icons": [
+    "thaumaturgicbases:brazier"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.brazier.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.brazier.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/brazier"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

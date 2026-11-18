@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.salis_mundus.title",
+  "parents": [
+    "thaumaturge:base_alchemy",
+    "thaumaturgicbases:quicksilver",
+    "thaumaturgicbases:amber"
+  ],
+  "column": 3,
+  "row": 3,
+  "icons": [
+    "thaumaturge:salis_mundus"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.salis_mundus.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.salis_mundus.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/salis_mundus"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

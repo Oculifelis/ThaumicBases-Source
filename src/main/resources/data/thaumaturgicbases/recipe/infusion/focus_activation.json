@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturge:mirrored_glass",
+  "components": [
+    "thaumaturge:curio_knowledge",
+    "thaumaturge:curio_knowledge",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 0,
+  "research": {
+    "entry": "thaumaturgicbases:focus_activation"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "instant",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicbases:activation"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicbases.focus_activation"
+      }
+    }
+  }
+}

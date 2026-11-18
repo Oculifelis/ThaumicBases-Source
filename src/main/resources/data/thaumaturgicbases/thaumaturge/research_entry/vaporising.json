@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.vaporising.title",
+  "parents": [
+    "thaumaturge:infusion_enchantment"
+  ],
+  "column": -3,
+  "row": 7,
+  "icons": [
+    "minecraft:enchanted_book"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.vaporising.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.vaporising.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/enchant_vaporising"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

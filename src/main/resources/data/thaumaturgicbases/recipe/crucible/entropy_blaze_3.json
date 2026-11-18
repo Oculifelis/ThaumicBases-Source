@@ -1,0 +1,17 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:blaze_rod",
+  "research": {
+    "entry": "thaumaturgicbases:advanced_entropy"
+  },
+  "result": {
+    "id": "minecraft:blaze_powder",
+    "count": 3
+  }
+}

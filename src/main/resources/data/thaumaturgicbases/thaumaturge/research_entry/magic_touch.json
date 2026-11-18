@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.magic_touch.title",
+  "parents": [
+    "thaumaturge:infusion_enchantment"
+  ],
+  "column": -1,
+  "row": 6,
+  "icons": [
+    "minecraft:enchanted_book"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.magic_touch.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.magic_touch.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/enchant_magic_touch"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

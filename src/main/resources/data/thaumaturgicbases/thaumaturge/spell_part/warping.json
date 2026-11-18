@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:alienis",
+  "behavior": {
+    "type": "thaumaturgicbases:flux_scrub",
+    "warp": 1
+  },
+  "color": 6693512,
+  "complexity": 3,
+  "icon": "thaumaturgicbases:textures/foci/warping.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_flux"
+  },
+  "vis": 0.05
+}

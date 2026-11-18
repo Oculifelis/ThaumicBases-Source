@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.eldritch_bane.title",
+  "parents": [
+    "thaumaturge:infusion_enchantment"
+  ],
+  "column": -1,
+  "row": 10,
+  "icons": [
+    "minecraft:enchanted_book"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.eldritch_bane.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.eldritch_bane.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/enchant_eldritch_bane"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

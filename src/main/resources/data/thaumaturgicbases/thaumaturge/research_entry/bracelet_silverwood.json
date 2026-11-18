@@ -1,0 +1,57 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.bracelet_silverwood.title",
+  "parents": [
+    "thaumaturgicbases:bracelet_greatwood",
+    "thaumaturge:rod_silverwood"
+  ],
+  "column": -12,
+  "row": 8,
+  "icons": [
+    "thaumaturgicbases:casting_bracelet"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.bracelet_silverwood.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.bracelet_silverwood.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/bracelet_silverwood"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

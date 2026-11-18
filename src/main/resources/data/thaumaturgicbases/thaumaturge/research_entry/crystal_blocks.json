@@ -1,0 +1,63 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.crystal_blocks.title",
+  "parents": [
+    "thaumaturgicbases:alchemy_restoration"
+  ],
+  "column": -4,
+  "row": 5,
+  "icons": [
+    "thaumaturgicbases:crystal_block_mixed"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.crystal_blocks.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.crystal_blocks.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crystal_slab_air",
+        "thaumaturgicbases:crystal_slab_fire",
+        "thaumaturgicbases:crystal_slab_water",
+        "thaumaturgicbases:crystal_slab_earth",
+        "thaumaturgicbases:crystal_slab_order",
+        "thaumaturgicbases:crystal_slab_entropy",
+        "thaumaturgicbases:crystal_slab_mixed",
+        "thaumaturgicbases:crystal_slab_tainted",
+        "thaumaturgicbases:crucible/crystal_block_air",
+        "thaumaturgicbases:crucible/crystal_block_fire",
+        "thaumaturgicbases:crucible/crystal_block_water",
+        "thaumaturgicbases:crucible/crystal_block_earth",
+        "thaumaturgicbases:crucible/crystal_block_order",
+        "thaumaturgicbases:crucible/crystal_block_entropy",
+        "thaumaturgicbases:crystal_block_mixed",
+        "thaumaturgicbases:crucible/crystal_block_tainted"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "round"
+  ]
+}

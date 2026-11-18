@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "thaumaturge:blurred_vision",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:vis_exhaust",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:infectious_vis_exhaust",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:flux_taint",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:thaumarhia",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:unnatural_hunger",
+      "required": false
+    }
+  ]
+}

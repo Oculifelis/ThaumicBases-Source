@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "thaumaturgicbases:block/nether_leaves"
+  }
+}

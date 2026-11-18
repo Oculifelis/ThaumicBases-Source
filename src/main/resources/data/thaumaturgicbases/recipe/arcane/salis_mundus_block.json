@@ -1,0 +1,22 @@
+{
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [],
+  "ingredients": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:salis_mundus_block"
+  },
+  "result": {
+    "id": "thaumaturgicbases:salis_mundus_block"
+  },
+  "vis": 9
+}

@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.briar.title",
+  "parents": [
+    "thaumaturgicbases:plax"
+  ],
+  "column": -13,
+  "row": -3,
+  "icons": [
+    "thaumaturgicbases:briar_seedbag"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.briar.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.briar.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/briar",
+        "thaumaturgicbases:arcane/rosehip_syrup"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

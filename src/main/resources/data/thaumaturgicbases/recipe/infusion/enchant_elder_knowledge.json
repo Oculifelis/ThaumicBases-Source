@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "minecraft:book",
+  "components": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    "thaumaturge:brain",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:elder_knowledge"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "thaumaturgicbases:elder_knowledge": 1
+      }
+    }
+  }
+}

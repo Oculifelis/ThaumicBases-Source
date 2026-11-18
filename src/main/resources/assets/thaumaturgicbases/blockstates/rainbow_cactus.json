@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=1": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=2": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=3": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=4": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=5": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=6": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=7": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=8": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=9": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=10": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=11": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=12": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=13": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=14": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    },
+    "age=15": {
+      "model": "thaumaturgicbases:block/rainbow_cactus"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 48
+    }
+  ],
+  "catalyst": "thaumaturgicbases:thaumic_anvil",
+  "components": [
+    "thaumaturge:metal_void",
+    "thaumaturge:metal_void",
+    "thaumaturge:metal_void",
+    "thaumaturge:metal_void",
+    "thaumaturge:metal_void"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumaturgicbases:void_anvil"
+  },
+  "result": {
+    "id": "thaumaturgicbases:void_anvil"
+  }
+}

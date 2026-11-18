@@ -1,0 +1,18 @@
+{
+  "values": {
+    "thaumaturgicbases:iron_spike": {
+      "damage": 8.0,
+      "hurts_items": true
+    },
+    "thaumaturgicbases:thaumic_spike": {
+      "damage": 14.0,
+      "redstone_off": true
+    },
+    "thaumaturgicbases:void_spike": {
+      "damage": 20.0,
+      "as_player": true,
+      "redstone_off": true,
+      "safe_boots": "thaumaturgicbases:spike_safe_boots"
+    }
+  }
+}

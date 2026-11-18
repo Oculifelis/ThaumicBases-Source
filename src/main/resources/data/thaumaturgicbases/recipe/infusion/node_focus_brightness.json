@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:lamp_arcane",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:cinderpearl",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:lamp_arcane",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:cinderpearl",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_brightness"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:brightness"
+    }
+  }
+}

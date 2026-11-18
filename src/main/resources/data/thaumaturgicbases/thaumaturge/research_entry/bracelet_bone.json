@@ -1,0 +1,53 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.bracelet_bone.title",
+  "parents": [
+    "thaumaturge:rod_bone",
+    "thaumaturgicbases:bracelet_greatwood"
+  ],
+  "column": -15,
+  "row": 10,
+  "icons": [
+    "thaumaturgicbases:casting_bracelet"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.bracelet_bone.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.bracelet_bone.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/bracelet_bone"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 3
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

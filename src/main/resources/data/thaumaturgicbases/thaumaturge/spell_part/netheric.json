@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:ignis",
+  "behavior": {
+    "type": "thaumaturgicbases:drain",
+    "lava": true,
+    "lava_vis": 0.03
+  },
+  "color": 14768670,
+  "complexity": 4,
+  "icon": "thaumaturgicbases:textures/foci/netheric.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_drain"
+  },
+  "vis": 0.05
+}

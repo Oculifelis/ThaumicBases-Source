@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturgicbases:tobacco_pile",
+  "research": {
+    "entry": "thaumaturgicbases:tobacco_fighting"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_fighting"
+  }
+}

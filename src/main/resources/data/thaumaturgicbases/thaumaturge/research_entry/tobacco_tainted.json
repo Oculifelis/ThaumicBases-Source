@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_tainted.title",
+  "parents": [
+    "thaumaturgicbases:tobacco"
+  ],
+  "column": 15,
+  "row": -8,
+  "icons": [
+    "thaumaturgicbases:tobacco_tainted"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_tainted.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ],
+      "warp": 3
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_tainted.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/tobacco_tainted"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

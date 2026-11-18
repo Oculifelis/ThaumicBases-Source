@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    }
+  ],
+  "catalyst": "#c:gems/diamond",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:flux_scrubber",
+    "thaumaturge:jar_void"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumaturgicbases:focus_flux"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicbases:flux_scrub"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicbases.focus_flux"
+      }
+    }
+  }
+}

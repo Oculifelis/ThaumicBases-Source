@@ -1,0 +1,41 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.metalleat.title",
+  "parents": [
+    "thaumaturgicbases:basic_plants"
+  ],
+  "column": -10,
+  "row": -4,
+  "icons": [
+    "thaumaturgicbases:metalleat_seeds"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.metalleat.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.metalleat.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/metalleat_seeds"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1
+}

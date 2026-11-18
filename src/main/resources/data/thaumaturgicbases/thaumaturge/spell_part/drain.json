@@ -1,0 +1,13 @@
+{
+  "aspect": "thaumaturge:aqua",
+  "behavior": {
+    "type": "thaumaturgicbases:drain"
+  },
+  "color": 1989345,
+  "complexity": 3,
+  "icon": "thaumaturgicbases:textures/foci/drain.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_drain"
+  },
+  "vis": 0.05
+}

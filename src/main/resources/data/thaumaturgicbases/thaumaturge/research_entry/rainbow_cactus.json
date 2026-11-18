@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.rainbow_cactus.title",
+  "parents": [
+    "thaumaturgicbases:metalleat"
+  ],
+  "column": -11,
+  "row": -6,
+  "icons": [
+    "thaumaturgicbases:rainbow_cactus"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.rainbow_cactus.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.rainbow_cactus.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/rainbow_cactus"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 4
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

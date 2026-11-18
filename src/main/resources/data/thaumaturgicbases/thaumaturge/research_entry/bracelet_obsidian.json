@@ -1,0 +1,53 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.bracelet_obsidian.title",
+  "parents": [
+    "thaumaturge:rod_obsidian",
+    "thaumaturgicbases:bracelet_greatwood"
+  ],
+  "column": -19,
+  "row": 10,
+  "icons": [
+    "thaumaturgicbases:casting_bracelet"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.bracelet_obsidian.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.bracelet_obsidian.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/bracelet_obsidian"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 3
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

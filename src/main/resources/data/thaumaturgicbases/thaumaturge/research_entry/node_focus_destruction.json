@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.node_focus_destruction.title",
+  "parents": [
+    "thaumaturgicbases:node_manipulator"
+  ],
+  "column": 2,
+  "row": -10,
+  "icons": [
+    "thaumaturgicbases:node_focus"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.node_focus_destruction.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.node_focus_destruction.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/node_focus_destruction"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

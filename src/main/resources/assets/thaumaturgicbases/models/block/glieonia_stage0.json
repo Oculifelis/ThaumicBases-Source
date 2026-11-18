@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "thaumaturgicbases:block/glieonia_stage0"
+  }
+}

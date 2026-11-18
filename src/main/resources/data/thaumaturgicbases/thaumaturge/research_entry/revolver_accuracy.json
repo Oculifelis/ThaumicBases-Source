@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_accuracy.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -19,
+  "row": -7,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/accuracy.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_accuracy.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_accuracy.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_accuracy_1",
+        "thaumaturgicbases:infusion/revolver_accuracy_2",
+        "thaumaturgicbases:infusion/revolver_accuracy_3"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

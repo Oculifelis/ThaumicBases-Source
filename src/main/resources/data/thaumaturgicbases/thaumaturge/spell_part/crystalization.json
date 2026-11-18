@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:potentia",
+  "behavior": {
+    "type": "thaumaturgicbases:flux_scrub",
+    "crystals": 1
+  },
+  "color": 16755251,
+  "complexity": 4,
+  "icon": "thaumaturgicbases:textures/foci/crystalization.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_flux"
+  },
+  "vis": 0.05
+}

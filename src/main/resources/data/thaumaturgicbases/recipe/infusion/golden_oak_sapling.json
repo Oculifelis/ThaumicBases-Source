@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 16
+    }
+  ],
+  "catalyst": "minecraft:oak_sapling",
+  "components": [
+    "minecraft:apple",
+    "minecraft:apple",
+    "minecraft:golden_apple",
+    "minecraft:golden_apple"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:golden_oak"
+  },
+  "result": {
+    "id": "thaumaturgicbases:golden_oak_sapling"
+  }
+}

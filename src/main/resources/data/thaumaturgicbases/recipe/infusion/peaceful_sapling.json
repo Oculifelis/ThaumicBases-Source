@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:birch_sapling",
+  "components": [
+    "minecraft:slime_ball",
+    "thaumaturge:salis_mundus",
+    "minecraft:slime_ball",
+    "thaumaturge:shimmerleaf",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:lamp_growth",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:shimmerleaf"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:peaceful_sapling"
+  },
+  "result": {
+    "id": "thaumaturgicbases:peaceful_sapling"
+  }
+}

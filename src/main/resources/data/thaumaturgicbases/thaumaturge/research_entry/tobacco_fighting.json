@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_fighting.title",
+  "parents": [
+    "thaumaturgicbases:tobacco"
+  ],
+  "column": 11,
+  "row": -9,
+  "icons": [
+    "thaumaturgicbases:tobacco_fighting"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_fighting.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_fighting.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/tobacco_fighting"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

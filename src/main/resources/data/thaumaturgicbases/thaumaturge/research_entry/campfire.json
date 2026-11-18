@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.campfire.title",
+  "parents": [
+    "thaumaturge:base_artifice"
+  ],
+  "column": 9,
+  "row": 5,
+  "icons": [
+    "thaumaturgicbases:campfire"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.campfire.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.campfire.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/campfire"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "round"
+  ]
+}

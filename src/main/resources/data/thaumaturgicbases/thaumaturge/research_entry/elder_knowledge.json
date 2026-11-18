@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.elder_knowledge.title",
+  "parents": [
+    "thaumaturge:infusion_enchantment"
+  ],
+  "column": -2,
+  "row": 8,
+  "icons": [
+    "minecraft:enchanted_book"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.elder_knowledge.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.elder_knowledge.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/enchant_elder_knowledge"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

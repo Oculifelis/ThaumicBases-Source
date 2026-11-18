@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:perditio",
+  "behavior": {
+    "type": "thaumaturgicbases:experience",
+    "mobs": true
+  },
+  "color": 6270767,
+  "complexity": 5,
+  "icon": "thaumaturgicbases:textures/foci/decomposing.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_experience"
+  },
+  "vis": 10.0
+}

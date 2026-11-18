@@ -1,0 +1,52 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_silver.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -13,
+  "row": -9,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/silver.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_silver.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_silver.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_silver_1",
+        "thaumaturgicbases:infusion/revolver_silver_2",
+        "thaumaturgicbases:infusion/revolver_silver_3",
+        "thaumaturgicbases:infusion/revolver_silver_4",
+        "thaumaturgicbases:infusion/revolver_silver_5"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

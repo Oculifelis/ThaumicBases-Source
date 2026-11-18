@@ -1,0 +1,48 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:amber",
+    "thaumaturgicbases:crystal_block_tainted",
+    "thaumaturge:tube_buffer",
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:break"
+      ]
+    },
+    "thaumaturge:amber",
+    "thaumaturgicbases:crystal_block_tainted",
+    "thaumaturge:tube_buffer",
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:break"
+      ]
+    }
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_destruction"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:destruction"
+    }
+  }
+}

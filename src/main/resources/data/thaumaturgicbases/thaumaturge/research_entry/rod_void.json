@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.rod_void.title",
+  "parents": [
+    "thaumaturgicbases:rod_thaumium",
+    "thaumaturge:base_eldritch"
+  ],
+  "column": 13,
+  "row": -1,
+  "icons": [
+    "thaumaturgicbases:wand_rod_void"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.rod_void.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.rod_void.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/wand_rod_void"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 6
+    }
+  ],
+  "complexity": 3
+}

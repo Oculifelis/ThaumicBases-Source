@@ -1,0 +1,51 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.bloody_robes.title",
+  "parents": [
+    "thaumaturgicbases:iron_spike"
+  ],
+  "column": 12,
+  "row": -4,
+  "icons": [
+    "thaumaturgicbases:bloody_chestplate"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.bloody_robes.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ],
+      "warp": 2
+    },
+    {
+      "text": "research.thaumaturgicbases.bloody_robes.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/bloody_chestplate",
+        "thaumaturgicbases:arcane/bloody_leggings",
+        "thaumaturgicbases:arcane/bloody_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

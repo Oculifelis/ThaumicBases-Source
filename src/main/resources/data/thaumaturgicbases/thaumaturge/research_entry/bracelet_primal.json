@@ -1,0 +1,52 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.bracelet_primal.title",
+  "parents": [
+    "thaumaturge:staff_primal",
+    "thaumaturgicbases:bracelet_bone",
+    "thaumaturgicbases:bracelet_quartz",
+    "thaumaturgicbases:bracelet_ice",
+    "thaumaturgicbases:bracelet_obsidian",
+    "thaumaturgicbases:bracelet_blaze",
+    "thaumaturgicbases:bracelet_reed",
+    "thaumaturgicbases:bracelet_silverwood"
+  ],
+  "column": -17,
+  "row": 8,
+  "icons": [
+    "thaumaturgicbases:casting_bracelet"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.bracelet_primal.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ],
+      "warp": 4
+    },
+    {
+      "text": "research.thaumaturgicbases.bracelet_primal.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/bracelet_primal"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

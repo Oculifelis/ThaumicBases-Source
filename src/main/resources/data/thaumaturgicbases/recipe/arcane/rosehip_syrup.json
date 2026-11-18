@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [],
+  "ingredients": [
+    "thaumaturge:phial",
+    "thaumaturgicbases:briar_seedbag",
+    "minecraft:sugar"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:briar"
+  },
+  "result": {
+    "id": "thaumaturgicbases:rosehip_syrup"
+  },
+  "vis": 8
+}

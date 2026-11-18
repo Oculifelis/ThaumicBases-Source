@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.node_focus_stability.title",
+  "parents": [
+    "thaumaturgicbases:node_manipulator"
+  ],
+  "column": 1,
+  "row": -11,
+  "icons": [
+    "thaumaturgicbases:node_focus"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.node_focus_stability.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.node_focus_stability.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/node_focus_stability"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

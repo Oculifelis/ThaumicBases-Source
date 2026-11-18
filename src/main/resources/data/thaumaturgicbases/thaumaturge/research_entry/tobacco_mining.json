@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_mining.title",
+  "parents": [
+    "thaumaturgicbases:tobacco"
+  ],
+  "column": 8,
+  "row": -7,
+  "icons": [
+    "thaumaturgicbases:tobacco_mining"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_mining.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_mining.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/tobacco_mining"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

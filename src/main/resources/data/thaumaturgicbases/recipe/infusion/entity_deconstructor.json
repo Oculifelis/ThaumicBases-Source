@@ -1,0 +1,35 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:thaumometer",
+  "components": [
+    "minecraft:light_weighted_pressure_plate",
+    "minecraft:light_weighted_pressure_plate",
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:heavy_weighted_pressure_plate",
+    "thaumaturge:curio_knowledge",
+    "thaumaturge:curio_knowledge",
+    "thaumaturge:primal_charm",
+    "thaumaturge:primal_charm"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumaturgicbases:entity_deconstructor"
+  },
+  "result": {
+    "id": "thaumaturgicbases:entity_deconstructor"
+  }
+}

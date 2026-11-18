@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.cap_thauminite.title",
+  "parents": [
+    "thaumaturgicbases:thauminite"
+  ],
+  "column": 5,
+  "row": 1,
+  "icons": [
+    "thaumaturgicbases:wand_cap_thauminite"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.cap_thauminite.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.cap_thauminite.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/wand_cap_thauminite"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "crystal=0": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=1": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=2": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=3": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=4": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=5": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=6": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=7": {
+      "model": "thaumaturgicbases:block/pyrofluid"
+    },
+    "crystal=8": {
+      "model": "thaumaturgicbases:block/pyrofluid_crystal"
+    }
+  }
+}

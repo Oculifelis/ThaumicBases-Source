@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.salis_mundus_block.title",
+  "parents": [
+    "thaumaturgicbases:salis_mundus"
+  ],
+  "column": 4,
+  "row": 3,
+  "icons": [
+    "thaumaturgicbases:salis_mundus_block"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.salis_mundus_block.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.salis_mundus_block.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/salis_mundus_block",
+        "thaumaturgicbases:salis_mundus_from_block"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

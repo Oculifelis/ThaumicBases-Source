@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 10
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_barrel": {
+        "upgrade": "thaumaturgicbases:efficiency",
+        "level": 4
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:salis_mundus",
+    "minecraft:blaze_powder",
+    "thaumaturge:salis_mundus",
+    "minecraft:enchanted_book",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 16,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_efficiency"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_barrel": {
+      "upgrade": "thaumaturgicbases:efficiency",
+      "level": 5
+    }
+  }
+}

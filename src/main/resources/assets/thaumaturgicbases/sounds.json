@@ -1,0 +1,23 @@
+{
+  "revolver_shot": {
+    "category": "player",
+    "subtitle": "subtitles.thaumaturgicbases.revolver_shot",
+    "sounds": [
+      "thaumaturgicbases:revolver_shot"
+    ]
+  },
+  "revolver_no_ammo": {
+    "category": "player",
+    "subtitle": "subtitles.thaumaturgicbases.revolver_no_ammo",
+    "sounds": [
+      "thaumaturgicbases:revolver_no_ammo"
+    ]
+  },
+  "revolver_reload": {
+    "category": "player",
+    "subtitle": "subtitles.thaumaturgicbases.revolver_reload",
+    "sounds": [
+      "thaumaturgicbases:revolver_reload"
+    ]
+  }
+}

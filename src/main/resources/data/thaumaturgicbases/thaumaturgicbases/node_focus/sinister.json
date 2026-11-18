@@ -1,0 +1,15 @@
+{
+  "color": 15395562,
+  "steps": [
+    {
+      "type": "normal",
+      "set_type": "dark",
+      "ticks": 7200
+    },
+    {
+      "type": "pure",
+      "set_type": "normal",
+      "ticks": 18000
+    }
+  ]
+}

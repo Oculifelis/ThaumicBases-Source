@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:node_stabilizer_advanced",
+  "components": [
+    "thaumaturge:node_stabilizer",
+    "thaumaturge:mirror",
+    "thaumaturge:mirror_essentia",
+    "thaumaturge:flux_scrubber",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:node_stabilizer",
+    "thaumaturge:mirror",
+    "thaumaturge:mirror_essentia",
+    "thaumaturge:flux_scrubber",
+    "thaumaturgicbases:salis_mundus_block"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "thaumaturgicbases:node_manipulator"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_manipulator"
+  }
+}

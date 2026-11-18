@@ -1,0 +1,26 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 5
+    }
+  ],
+  "catalyst": "thaumaturge:crystal_perditio",
+  "research": {
+    "entry": "thaumaturgicbases:ore_destruction"
+  },
+  "result": {
+    "id": "thaumaturge:essentia_crystal",
+    "count": 4,
+    "components": {
+      "thaumaturge:crystal_aspect": {
+        "aspect": "thaumaturge:perditio"
+      }
+    }
+  }
+}

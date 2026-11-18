@@ -1,0 +1,12 @@
+{
+  "values": [
+    "thaumaturgicbases:crystal_block_air",
+    "thaumaturgicbases:crystal_block_fire",
+    "thaumaturgicbases:crystal_block_water",
+    "thaumaturgicbases:crystal_block_earth",
+    "thaumaturgicbases:crystal_block_order",
+    "thaumaturgicbases:crystal_block_entropy",
+    "thaumaturgicbases:crystal_block_mixed",
+    "thaumaturgicbases:crystal_block_tainted"
+  ]
+}

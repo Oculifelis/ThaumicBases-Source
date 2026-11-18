@@ -1,0 +1,10 @@
+{
+  "loader": "neoforge:obj",
+  "model": "thaumaturgicbases:models/block/node_manipulator.obj",
+  "flip_v": true,
+  "textures": {
+    "base": "thaumaturgicbases:block/node_manipulator",
+    "focus": "thaumaturgicbases:block/node_manipulator_focus",
+    "particle": "thaumaturgicbases:block/node_manipulator"
+  }
+}

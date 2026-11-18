@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturgicbases:greatwood_pipe",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:plank_silverwood",
+    "thaumaturge:plank_silverwood",
+    "thaumaturge:plank_silverwood",
+    "thaumaturge:plank_silverwood",
+    "thaumaturge:shimmerleaf"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumaturgicbases:silverwood_pipe"
+  },
+  "result": {
+    "id": "thaumaturgicbases:silverwood_pipe"
+  }
+}

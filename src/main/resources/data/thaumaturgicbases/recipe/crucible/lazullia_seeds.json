@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 3
+    }
+  ],
+  "catalyst": "minecraft:wheat_seeds",
+  "research": {
+    "entry": "thaumaturgicbases:lazullia"
+  },
+  "result": {
+    "id": "thaumaturgicbases:lazullia_seeds"
+  }
+}

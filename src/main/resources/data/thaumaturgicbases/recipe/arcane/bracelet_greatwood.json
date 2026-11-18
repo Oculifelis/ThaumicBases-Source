@@ -1,0 +1,56 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    }
+  ],
+  "key": {
+    "C": "thaumaturge:wand_cap_gold",
+    "I": "thaumaturge:log_greatwood"
+  },
+  "pattern": [
+    "CIC",
+    "I I"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_greatwood"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_greatwood",
+        "rod": "thaumaturgicbases:bracelet_greatwood",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "greatwood"
+        ]
+      }
+    }
+  },
+  "vis": 25
+}

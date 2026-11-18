@@ -1,0 +1,20 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 2
+    }
+  ],
+  "catalyst": "minecraft:sugar",
+  "research": {
+    "entry": "thaumaturgicbases:backprocessing"
+  },
+  "result": {
+    "id": "minecraft:sugar_cane"
+  }
+}

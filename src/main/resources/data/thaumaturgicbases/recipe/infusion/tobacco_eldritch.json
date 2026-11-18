@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 1
+    }
+  ],
+  "catalyst": "thaumaturgicbases:tobacco_pile",
+  "components": [
+    "minecraft:ender_eye",
+    "minecraft:arrow"
+  ],
+  "instability": 1,
+  "research": {
+    "entry": "thaumaturgicbases:tobacco_eldritch"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_eldritch"
+  }
+}

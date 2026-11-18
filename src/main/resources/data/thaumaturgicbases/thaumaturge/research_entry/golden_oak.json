@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.golden_oak.title",
+  "parents": [
+    "thaumaturgicbases:briar"
+  ],
+  "column": -15,
+  "row": -1,
+  "icons": [
+    "thaumaturgicbases:golden_oak_sapling"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.golden_oak.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.golden_oak.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/golden_oak_sapling"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

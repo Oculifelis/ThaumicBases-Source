@@ -1,0 +1,41 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.aurelia.title",
+  "parents": [
+    "thaumaturgicbases:basic_plants"
+  ],
+  "column": -10,
+  "row": 0,
+  "icons": [
+    "thaumaturgicbases:aurelia"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.aurelia.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.aurelia.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/aurelia"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1
+}

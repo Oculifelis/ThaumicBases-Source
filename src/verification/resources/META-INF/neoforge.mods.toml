@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC0-1.0"
+
+[[mods]]
+modId="thaumaturgicbases_checks"
+version="1.0"
+displayName="ThaumicBases development checks"
+authors="Oculifelis"
+
+[[dependencies.thaumaturgicbases_checks]]
+modId="thaumaturgicbases"
+type="required"
+versionRange="[0.6.7,)"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="thaumaturgicbases_checks.mixins.json"

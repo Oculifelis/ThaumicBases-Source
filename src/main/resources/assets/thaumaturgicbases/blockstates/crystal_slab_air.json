@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thaumaturgicbases:block/crystal_slab_air"
+    },
+    "type=top": {
+      "model": "thaumaturgicbases:block/crystal_slab_air_top"
+    },
+    "type=double": {
+      "model": "thaumaturgicbases:block/crystal_block_air"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:iron_bars",
+  "research": {
+    "entry": "thaumaturgicbases:strong_entropy"
+  },
+  "result": {
+    "id": "minecraft:iron_nugget",
+    "count": 3
+  }
+}

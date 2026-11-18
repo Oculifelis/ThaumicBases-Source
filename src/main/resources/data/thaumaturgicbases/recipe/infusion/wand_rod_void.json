@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 6
+    }
+  ],
+  "catalyst": "thaumaturgicbases:wand_rod_thaumium",
+  "components": [
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturgicbases:crystal_block_tainted",
+    "thaumaturgicbases:crystal_block_tainted"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "thaumaturgicbases:rod_void"
+  },
+  "result": {
+    "id": "thaumaturgicbases:wand_rod_void"
+  }
+}

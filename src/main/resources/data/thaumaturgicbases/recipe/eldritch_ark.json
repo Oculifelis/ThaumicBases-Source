@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "@": "#c:nuggets/gold",
+    "#": "#c:obsidians",
+    "$": "thaumaturge:crystal_ordo"
+  },
+  "pattern": [
+    "@#@",
+    "#$#",
+    "@#@"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:eldritch_ark",
+    "count": 4
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "thaumaturgicbases:block/void_spike_bloody"
+  }
+}

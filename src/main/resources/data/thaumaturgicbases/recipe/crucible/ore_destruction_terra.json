@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    }
+  ],
+  "catalyst": "thaumaturge:crystal_terra",
+  "research": {
+    "entry": "thaumaturgicbases:ore_destruction"
+  },
+  "result": {
+    "id": "thaumaturge:essentia_crystal",
+    "count": 4,
+    "components": {
+      "thaumaturge:crystal_aspect": {
+        "aspect": "thaumaturge:terra"
+      }
+    }
+  }
+}

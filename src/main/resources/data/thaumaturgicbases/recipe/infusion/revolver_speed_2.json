@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_barrel": {
+        "upgrade": "thaumaturgicbases:speed",
+        "level": 1
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:salis_mundus",
+    "minecraft:feather",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_speed"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_barrel": {
+      "upgrade": "thaumaturgicbases:speed",
+      "level": 2
+    }
+  }
+}

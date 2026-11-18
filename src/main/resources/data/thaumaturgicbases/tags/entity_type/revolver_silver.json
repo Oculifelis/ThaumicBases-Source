@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:undead",
+    "#thaumaturgicbases:revolver_demons",
+    {
+      "id": "witchery:werewolf",
+      "required": false
+    }
+  ]
+}

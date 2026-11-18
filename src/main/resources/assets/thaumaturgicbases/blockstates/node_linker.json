@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thaumaturgicbases:block/node_linker"
+    }
+  }
+}

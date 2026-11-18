@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "minecraft:ender_pearl",
+    "thaumaturgicbases:crystal_block_entropy",
+    "minecraft:ender_pearl",
+    "thaumaturgicbases:crystal_block_entropy",
+    "minecraft:ender_pearl",
+    "thaumaturgicbases:crystal_block_entropy",
+    "minecraft:ender_pearl",
+    "thaumaturgicbases:crystal_block_entropy"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_instability"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:instability"
+    }
+  }
+}

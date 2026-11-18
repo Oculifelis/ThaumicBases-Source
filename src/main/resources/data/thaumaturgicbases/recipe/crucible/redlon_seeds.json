@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 16
+    }
+  ],
+  "catalyst": "minecraft:melon_seeds",
+  "research": {
+    "entry": "thaumaturgicbases:redlon"
+  },
+  "result": {
+    "id": "thaumaturgicbases:redlon_seeds"
+  }
+}

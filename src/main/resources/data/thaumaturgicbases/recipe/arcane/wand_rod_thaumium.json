@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 6
+    }
+  ],
+  "key": {
+    "#": "#c:ingots/thaumium",
+    "@": "thaumaturge:salis_mundus"
+  },
+  "pattern": [
+    " @#",
+    "@#@",
+    "#@ "
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:rod_thaumium"
+  },
+  "result": {
+    "id": "thaumaturgicbases:wand_rod_thaumium"
+  },
+  "vis": 50
+}

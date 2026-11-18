@@ -1,0 +1,54 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.node_manipulator.title",
+  "parents": [
+    "thaumaturge:infusion",
+    "thaumaturge:node_stabilizer_advanced",
+    "thaumaturge:node_tapper_1"
+  ],
+  "column": 0,
+  "row": -8,
+  "icons": [
+    "thaumaturgicbases:node_manipulator"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.node_manipulator.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.node_manipulator.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/node_manipulator"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

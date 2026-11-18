@@ -1,0 +1,60 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "G": "thaumaturge:plank_greatwood",
+    "A": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aer"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "E": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "W": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aqua"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "N": "thaumaturge:nitor_yellow"
+  },
+  "pattern": [
+    "GAG",
+    "ENE",
+    "GWG"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:relocator"
+  },
+  "result": {
+    "id": "thaumaturgicbases:relocator"
+  },
+  "vis": 25
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cactus",
+  "textures": {
+    "particle": "thaumaturgicbases:block/rainbow_cactus_side",
+    "bottom": "thaumaturgicbases:block/rainbow_cactus_bottom",
+    "top": "thaumaturgicbases:block/rainbow_cactus_top",
+    "side": "thaumaturgicbases:block/rainbow_cactus_side"
+  }
+}

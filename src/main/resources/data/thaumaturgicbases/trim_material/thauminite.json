@@ -1,0 +1,10 @@
+{
+  "asset_name": "thaumaturgicbases_thauminite",
+  "description": {
+    "color": "#6266FF",
+    "translate": "trim_material.thaumaturgicbases.thauminite"
+  },
+  "override_armor_assets": {
+    "thaumaturgicbases:thauminite": "thaumaturgicbases_thauminite_darker"
+  }
+}

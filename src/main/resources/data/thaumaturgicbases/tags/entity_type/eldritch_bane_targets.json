@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:enderman",
+    {
+      "id": "#thaumaturge:eldritch",
+      "required": false
+    }
+  ]
+}

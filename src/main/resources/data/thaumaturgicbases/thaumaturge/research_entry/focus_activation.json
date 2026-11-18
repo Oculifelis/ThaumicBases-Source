@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.focus_activation.title",
+  "parents": [
+    "thaumaturge:infusion",
+    "thaumaturge:mirror_hand"
+  ],
+  "column": -3,
+  "row": -4,
+  "icons": [
+    "focus:thaumaturgicbases:activation"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.focus_activation.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.focus_activation.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/focus_activation"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

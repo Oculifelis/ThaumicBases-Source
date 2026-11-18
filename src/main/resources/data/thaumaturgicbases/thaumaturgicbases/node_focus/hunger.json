@@ -1,0 +1,10 @@
+{
+  "color": 740674,
+  "steps": [
+    {
+      "type": "normal",
+      "set_type": "hungry",
+      "ticks": 6000
+    }
+  ]
+}

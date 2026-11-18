@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bloody=false": {
+      "model": "thaumaturgicbases:block/iron_spike"
+    },
+    "bloody=true": {
+      "model": "thaumaturgicbases:block/iron_spike_bloody"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:wand_rod_silverwood",
+  "components": [
+    "thaumaturge:wand_cap_thaumium",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:log_silverwood",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:wand_cap_thaumium",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:log_silverwood",
+    "thaumaturge:essentia_crystal"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_silverwood"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_silverwood",
+        "rod": "thaumaturgicbases:bracelet_silverwood",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "silverwood"
+        ]
+      }
+    }
+  }
+}

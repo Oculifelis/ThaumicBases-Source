@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_knowledge.title",
+  "parents": [
+    "thaumaturgicbases:tobacco"
+  ],
+  "column": 13,
+  "row": -6,
+  "icons": [
+    "thaumaturgicbases:tobacco_knowledge"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_knowledge.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_knowledge.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/tobacco_knowledge"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

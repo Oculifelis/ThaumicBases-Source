@@ -1,0 +1,17 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "catalyst": "#minecraft:wool",
+  "research": {
+    "entry": "thaumaturgicbases:advanced_entropy"
+  },
+  "result": {
+    "id": "minecraft:string",
+    "count": 3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:aqua",
+  "behavior": {
+    "type": "thaumaturgicbases:drain",
+    "crystal_chance": 0.4
+  },
+  "color": 3054321,
+  "complexity": 4,
+  "icon": "thaumaturgicbases:textures/foci/aquatic.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_drain"
+  },
+  "vis": 0.05
+}

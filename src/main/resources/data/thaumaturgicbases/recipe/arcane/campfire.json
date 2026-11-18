@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "S": "#c:rods/wooden",
+    "C": "#c:cobblestones",
+    "O": "#minecraft:coals",
+    "G": "minecraft:gravel"
+  },
+  "pattern": [
+    "SSS",
+    "COC",
+    "GGG"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:campfire"
+  },
+  "result": {
+    "id": "thaumaturgicbases:campfire"
+  },
+  "vis": 8
+}

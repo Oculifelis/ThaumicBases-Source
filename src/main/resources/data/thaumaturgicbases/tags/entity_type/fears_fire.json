@@ -1,0 +1,45 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:zombie_villager",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:bogged",
+    "minecraft:wither_skeleton",
+    "minecraft:creeper",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:enderman",
+    "minecraft:witch",
+    "minecraft:pillager",
+    "minecraft:vindicator",
+    "minecraft:evoker",
+    "minecraft:illusioner",
+    "minecraft:ravager",
+    "minecraft:zombified_piglin",
+    "minecraft:piglin_brute",
+    "minecraft:silverfish",
+    "minecraft:endermite",
+    "minecraft:blaze",
+    "minecraft:breeze",
+    "minecraft:creaking",
+    {
+      "id": "thaumaturge:brainy_zombie",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:cultist",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:taint_crawler",
+      "required": false
+    },
+    {
+      "id": "thaumaturge:pech",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "Q": "thaumaturgicbases:quicksilver_block"
+  },
+  "pattern": [
+    "QQ",
+    "QQ"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:quicksilver_brick",
+    "count": 4
+  }
+}

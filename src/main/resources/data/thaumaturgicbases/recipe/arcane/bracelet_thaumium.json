@@ -1,0 +1,58 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    }
+  ],
+  "key": {
+    "C": "thaumaturgicbases:wand_cap_thauminite",
+    "I": "thaumaturge:ingot_thaumium",
+    "N": "thaumaturge:salis_mundus"
+  },
+  "pattern": [
+    "CIC",
+    "INI",
+    "N N"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_thaumium"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_thaumium",
+        "rod": "thaumaturgicbases:bracelet_thaumium",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "thaumium"
+        ]
+      }
+    }
+  },
+  "vis": 25
+}

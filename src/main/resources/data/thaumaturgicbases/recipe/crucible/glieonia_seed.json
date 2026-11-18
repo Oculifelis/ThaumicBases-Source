@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:azure_bluet",
+  "research": {
+    "entry": "thaumaturgicbases:glieonia"
+  },
+  "result": {
+    "id": "thaumaturgicbases:glieonia_seed"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:wheat_seeds",
+  "research": {
+    "entry": "thaumaturgicbases:plax"
+  },
+  "result": {
+    "id": "thaumaturgicbases:plax_seeds"
+  }
+}

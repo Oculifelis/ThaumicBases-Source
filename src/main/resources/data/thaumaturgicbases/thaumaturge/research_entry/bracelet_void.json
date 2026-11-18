@@ -1,0 +1,57 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.bracelet_void.title",
+  "parents": [
+    "thaumaturgicbases:bracelet_silverwood",
+    "thaumaturge:base_eldritch"
+  ],
+  "column": -12,
+  "row": 10,
+  "icons": [
+    "thaumaturgicbases:casting_bracelet"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.bracelet_void.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.bracelet_void.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/bracelet_void"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

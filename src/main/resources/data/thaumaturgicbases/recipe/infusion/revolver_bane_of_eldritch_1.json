@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 2
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_damage": {
+        "upgrade": "thaumaturgicbases:none",
+        "level": 0
+      }
+    }
+  },
+  "components": [
+    "minecraft:ender_eye",
+    "thaumaturge:salis_mundus",
+    "minecraft:ender_pearl"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_bane_of_eldritch"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_damage": {
+      "upgrade": "thaumaturgicbases:bane_of_eldritch",
+      "level": 1
+    }
+  }
+}

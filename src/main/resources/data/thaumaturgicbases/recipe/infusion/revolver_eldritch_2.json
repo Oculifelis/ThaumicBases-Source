@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_damage": {
+        "upgrade": "thaumaturgicbases:eldritch",
+        "level": 1
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:eldritch_eye",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:eldritch_eye",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 12,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_eldritch"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_damage": {
+      "upgrade": "thaumaturgicbases:eldritch",
+      "level": 2
+    }
+  }
+}

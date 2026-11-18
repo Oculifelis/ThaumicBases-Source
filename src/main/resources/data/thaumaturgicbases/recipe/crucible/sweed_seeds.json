@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:short_grass",
+  "research": {
+    "entry": "thaumaturgicbases:basic_plants"
+  },
+  "result": {
+    "id": "thaumaturgicbases:sweed_seeds"
+  }
+}

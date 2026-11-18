@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_sanity.title",
+  "parents": [
+    "thaumaturgicbases:tobacco"
+  ],
+  "column": 9,
+  "row": -8,
+  "icons": [
+    "thaumaturgicbases:tobacco_sanity"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_sanity.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_sanity.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/tobacco_sanity"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

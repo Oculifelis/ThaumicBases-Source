@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:wheat_seeds",
+  "research": {
+    "entry": "thaumaturgicbases:tobacco"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_seeds"
+  }
+}

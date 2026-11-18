@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "thaumaturgicbases:crystal_block_fire"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:crystal_slab_fire",
+    "count": 6
+  }
+}

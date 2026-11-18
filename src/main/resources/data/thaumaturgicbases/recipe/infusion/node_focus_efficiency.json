@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:essentia_crystal",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:essentia_crystal",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:essentia_crystal",
+    "thaumaturgicbases:salis_mundus_block"
+  ],
+  "instability": 1,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_efficiency"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:efficiency"
+    }
+  }
+}

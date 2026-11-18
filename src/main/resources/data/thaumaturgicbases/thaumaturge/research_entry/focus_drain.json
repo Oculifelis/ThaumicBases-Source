@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.focus_drain.title",
+  "parents": [
+    "thaumaturge:infusion",
+    "thaumaturge:focus_break",
+    "thaumaturge:warded_jars"
+  ],
+  "column": -3,
+  "row": -2,
+  "icons": [
+    "focus:thaumaturgicbases:drain"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.focus_drain.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.focus_drain.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/focus_drain"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

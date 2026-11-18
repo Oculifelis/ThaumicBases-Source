@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    }
+  ],
+  "ingredients": [
+    "thaumaturgicbases:tobacco_pile",
+    "minecraft:pumpkin_seeds"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:tobacco_hunger"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_hunger"
+  },
+  "vis": 10
+}

@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_hunger.title",
+  "parents": [
+    "thaumaturgicbases:tobacco"
+  ],
+  "column": 10,
+  "row": -9,
+  "icons": [
+    "thaumaturgicbases:tobacco_hunger"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_hunger.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_hunger.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/tobacco_hunger_pumpkin",
+        "thaumaturgicbases:arcane/tobacco_hunger_melon"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

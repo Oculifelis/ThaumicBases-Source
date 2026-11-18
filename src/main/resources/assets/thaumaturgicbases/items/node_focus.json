@@ -1,0 +1,83 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "thaumaturgicbases:node_focus",
+    "cases": [
+      {
+        "when": "thaumaturgicbases:brightness",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_brightness"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:destruction",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_destruction"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:efficiency",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_efficiency"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:hunger",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_hunger"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:instability",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_instability"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:purity",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_purity"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:sinister",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_sinister"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:speed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_speed"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:stability",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_stability"
+        }
+      },
+      {
+        "when": "thaumaturgicbases:taint",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumaturgicbases:item/node_focus_taint"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "thaumaturgicbases:item/node_focus_brightness"
+    }
+  }
+}

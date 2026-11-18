@@ -1,0 +1,55 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco.title",
+  "parents": [
+    "thaumaturgicbases:plax"
+  ],
+  "column": 11,
+  "row": -7,
+  "icons": [
+    "thaumaturgicbases:greatwood_pipe"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/tobacco_seeds",
+        "thaumaturgicbases:arcane/greatwood_pipe",
+        "thaumaturgicbases:arcane/mortar_and_pestle",
+        "thaumaturgicbases:arcane/tobacco_pile"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

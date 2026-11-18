@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:void_seed",
+  "components": [
+    "minecraft:wheat_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:poisonous_potato",
+    "minecraft:carrot",
+    "minecraft:nether_wart"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "thaumaturgicbases:void_seed"
+  },
+  "result": {
+    "id": "thaumaturgicbases:void_plant_seed"
+  }
+}

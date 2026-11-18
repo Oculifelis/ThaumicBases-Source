@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 6
+    }
+  ],
+  "catalyst": "minecraft:cactus",
+  "research": {
+    "entry": "thaumaturgicbases:rainbow_cactus"
+  },
+  "result": {
+    "id": "thaumaturgicbases:rainbow_cactus"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thaumaturgicbases:salis_mundus_block"
+  ],
+  "result": {
+    "id": "thaumaturge:salis_mundus",
+    "count": 9
+  }
+}

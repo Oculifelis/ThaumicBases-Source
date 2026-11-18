@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 6
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_heavy": {
+        "upgrade": "thaumaturgicbases:heavy",
+        "level": 2
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:salis_mundus",
+    "minecraft:iron_sword",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_heavy"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_heavy": {
+      "upgrade": "thaumaturgicbases:heavy",
+      "level": 3
+    }
+  }
+}

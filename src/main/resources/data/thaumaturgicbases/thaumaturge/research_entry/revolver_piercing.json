@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_piercing.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -17,
+  "row": -10,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/piercing.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_piercing.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_piercing.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_piercing_1"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

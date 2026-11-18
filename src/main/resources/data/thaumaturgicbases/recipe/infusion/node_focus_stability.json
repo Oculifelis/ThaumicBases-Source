@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:mirrored_glass",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturgicbases:crystal_block_mixed",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturge:mirrored_glass",
+    "thaumaturgicbases:salis_mundus_block",
+    "thaumaturgicbases:crystal_block_mixed"
+  ],
+  "instability": 1,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_stability"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:stability"
+    }
+  }
+}

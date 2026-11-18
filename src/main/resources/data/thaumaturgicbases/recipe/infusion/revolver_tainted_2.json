@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_round": {
+        "upgrade": "thaumaturgicbases:tainted",
+        "level": 1
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:bottle_taint",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:crystal_vitium",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_tainted"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_round": {
+      "upgrade": "thaumaturgicbases:tainted",
+      "level": 2
+    }
+  }
+}

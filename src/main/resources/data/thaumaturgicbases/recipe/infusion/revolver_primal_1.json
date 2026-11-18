@@ -1,0 +1,64 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_round": {
+        "upgrade": "thaumaturgicbases:none",
+        "level": 0
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:primordial_pearl",
+    "#c:gems/diamond",
+    "thaumaturge:primordial_pearl",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 12,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_primal"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_round": {
+      "upgrade": "thaumaturgicbases:primal",
+      "level": 1
+    }
+  }
+}

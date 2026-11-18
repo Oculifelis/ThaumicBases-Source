@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.lucrite.title",
+  "parents": [
+    "thaumaturgicbases:metalleat"
+  ],
+  "column": -9,
+  "row": -6,
+  "icons": [
+    "thaumaturgicbases:lucrite_seeds"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.lucrite.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ],
+      "warp": 1
+    },
+    {
+      "text": "research.thaumaturgicbases.lucrite.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/lucrite_seeds"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

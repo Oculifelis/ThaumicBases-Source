@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 2
+    }
+  ],
+  "catalyst": "minecraft:rose_bush",
+  "research": {
+    "entry": "thaumaturgicbases:knose"
+  },
+  "result": {
+    "id": "thaumaturgicbases:knose_seed"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 1
+    }
+  ],
+  "catalyst": "#c:sandstone/uncolored_blocks",
+  "research": {
+    "entry": "thaumaturgicbases:master_entropy"
+  },
+  "result": {
+    "id": "minecraft:sand",
+    "count": 4
+  }
+}

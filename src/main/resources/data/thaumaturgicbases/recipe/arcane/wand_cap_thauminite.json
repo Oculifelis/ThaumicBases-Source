@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    }
+  ],
+  "key": {
+    "#": "#c:nuggets/thauminite",
+    "@": "thaumaturge:salis_mundus"
+  },
+  "pattern": [
+    "###",
+    "#@#",
+    "@@@"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:cap_thauminite"
+  },
+  "result": {
+    "id": "thaumaturgicbases:wand_cap_thauminite"
+  },
+  "vis": 25
+}

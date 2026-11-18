@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [],
+  "ingredients": [
+    "thaumaturgicbases:mortar_and_pestle",
+    "thaumaturgicbases:tobacco_leaves"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:tobacco"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_pile"
+  },
+  "vis": 1
+}

@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.void_tools.title",
+  "parents": [
+    "thaumaturge:base_eldritch"
+  ],
+  "column": 15,
+  "row": 0,
+  "icons": [
+    "thaumaturgicbases:void_shears"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.void_tools.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.void_tools.stage_1",
+      "recipes": [
+        "thaumaturgicbases:void_shears",
+        "thaumaturgicbases:void_flint_and_steel"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

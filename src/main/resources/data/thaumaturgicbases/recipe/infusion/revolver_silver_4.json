@@ -1,0 +1,44 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 8
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_damage": {
+        "upgrade": "thaumaturgicbases:silver",
+        "level": 3
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:quicksilver",
+    "#thaumaturgicbases:revolver_silver",
+    "thaumaturge:quicksilver",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_silver"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_damage": {
+      "upgrade": "thaumaturgicbases:silver",
+      "level": 4
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "slot": "round",
+  "max_level": 5,
+  "knowledge": {
+    "odds": 7,
+    "category": "thaumaturge:auromancy"
+  }
+}

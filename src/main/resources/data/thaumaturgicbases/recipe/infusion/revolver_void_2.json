@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 4
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_void": {
+        "upgrade": "thaumaturgicbases:void",
+        "level": 1
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_void"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_void": {
+      "upgrade": "thaumaturgicbases:void",
+      "level": 2
+    },
+    "thaumaturge:warp": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 8
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_damage": {
+        "upgrade": "thaumaturgicbases:dueling",
+        "level": 3
+      }
+    }
+  },
+  "components": [
+    "thaumaturge:salis_mundus",
+    "#minecraft:beds",
+    "thaumaturge:salis_mundus",
+    "minecraft:ghast_tear",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 11,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_dueling"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_damage": {
+      "upgrade": "thaumaturgicbases:dueling",
+      "level": 4
+    }
+  }
+}

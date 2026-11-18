@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturgicbases:void_anvil",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "thaumaturgicbases:void_anvil",
+              "properties": [
+                "damage"
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "thaumaturgicbases:eldritch_ark"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:eldritch_ark_slab",
+    "count": 6
+  }
+}

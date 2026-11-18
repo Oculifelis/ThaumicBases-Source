@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "bloody_mess"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "*": "thaumaturge:nugget_thaumium",
+    "#": "thaumaturge:ingot_thaumium",
+    "_": "thaumaturgicbases:iron_spike"
+  },
+  "pattern": [
+    " * ",
+    "*#*",
+    "#_#"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:thaumic_spike"
+  },
+  "result": {
+    "id": "thaumaturgicbases:thaumic_spike"
+  },
+  "vis": 4
+}

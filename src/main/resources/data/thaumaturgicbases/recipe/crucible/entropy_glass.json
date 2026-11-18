@@ -1,0 +1,16 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "catalyst": "#c:glass_blocks/colorless",
+  "research": {
+    "entry": "thaumaturgicbases:strong_entropy"
+  },
+  "result": {
+    "id": "minecraft:sand"
+  }
+}

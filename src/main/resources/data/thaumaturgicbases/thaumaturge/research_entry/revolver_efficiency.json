@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_efficiency.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -19,
+  "row": -8,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/efficiency.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_efficiency.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_efficiency.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_efficiency_1",
+        "thaumaturgicbases:infusion/revolver_efficiency_2",
+        "thaumaturgicbases:infusion/revolver_efficiency_3",
+        "thaumaturgicbases:infusion/revolver_efficiency_4",
+        "thaumaturgicbases:infusion/revolver_efficiency_5"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

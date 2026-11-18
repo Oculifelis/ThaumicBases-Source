@@ -1,0 +1,8 @@
+{
+  "slot": "damage",
+  "max_level": 5,
+  "match": {
+    "tag": "minecraft:arthropod"
+  },
+  "match_per_level": 1.2
+}

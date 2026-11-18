@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:sapling_silverwood",
+    "thaumaturge:ethereal_bloom",
+    "thaumaturge:log_silverwood",
+    "thaumaturge:shimmerleaf",
+    "thaumaturge:leaves_silverwood",
+    "thaumaturge:ethereal_bloom",
+    "thaumaturge:log_silverwood",
+    "thaumaturge:shimmerleaf"
+  ],
+  "instability": 0,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_purity"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:purity"
+    }
+  }
+}

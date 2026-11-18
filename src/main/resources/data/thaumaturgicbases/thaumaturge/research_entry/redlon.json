@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.redlon.title",
+  "parents": [
+    "thaumaturgicbases:metalleat"
+  ],
+  "column": -10,
+  "row": -6,
+  "icons": [
+    "thaumaturgicbases:redlon_seeds"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.redlon.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.redlon.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/redlon_seeds"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 4
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

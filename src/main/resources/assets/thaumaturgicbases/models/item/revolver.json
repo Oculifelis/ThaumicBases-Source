@@ -1,0 +1,100 @@
+{
+  "loader": "neoforge:obj",
+  "model": "thaumaturgicbases:models/item/revolver.obj",
+  "flip_v": true,
+  "textures": {
+    "handle": "thaumaturgicbases:item/revolver/handle",
+    "barrel": "thaumaturgicbases:item/revolver/barrel",
+    "metal": "thaumaturgicbases:item/revolver/darkmetal",
+    "gun": "thaumaturgicbases:item/revolver/gun",
+    "press": "thaumaturgicbases:item/revolver/press",
+    "particle": "thaumaturgicbases:item/revolver/darkmetal"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        90,
+        -35
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  }
+}

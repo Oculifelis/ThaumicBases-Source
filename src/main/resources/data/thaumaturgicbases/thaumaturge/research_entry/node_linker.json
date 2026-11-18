@@ -1,0 +1,52 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.node_linker.title",
+  "parents": [
+    "thaumaturge:node_tapper_1"
+  ],
+  "column": 5,
+  "row": -6,
+  "icons": [
+    "thaumaturgicbases:node_linker"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.node_linker.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.node_linker.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/node_linker"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:bottle_taint",
+    "thaumaturgicbases:crystal_block_tainted",
+    "thaumaturge:crystal_vitium",
+    "thaumaturgicbases:knose_fragment",
+    "thaumaturge:bottle_taint",
+    "thaumaturgicbases:crystal_block_tainted",
+    "thaumaturge:crystal_vitium",
+    "thaumaturgicbases:knose_fragment"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_taint"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:taint"
+    }
+  }
+}

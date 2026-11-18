@@ -1,0 +1,51 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.advanced_alchemical_furnace.title",
+  "parents": [
+    "thaumaturge:essentia_smelter",
+    "thaumaturge:bellows",
+    "thaumaturge:metallurgy"
+  ],
+  "column": 8,
+  "row": 2,
+  "icons": [
+    "thaumaturgicbases:advanced_alchemical_furnace"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.advanced_alchemical_furnace.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.advanced_alchemical_furnace.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/advanced_alchemical_furnace"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

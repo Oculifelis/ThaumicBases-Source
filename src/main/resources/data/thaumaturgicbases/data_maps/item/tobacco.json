@@ -1,0 +1,158 @@
+{
+  "values": {
+    "thaumaturgicbases:tobacco_pile": [
+      {
+        "pipe": "silverwood",
+        "chance": 0.3,
+        "warp": -1
+      },
+      {
+        "pipe": "greatwood",
+        "chance": 0.1,
+        "warp": -1
+      }
+    ],
+    "thaumaturgicbases:tobacco_eldritch": [
+      {
+        "effect": {
+          "id": "thaumaturge:death_gaze",
+          "duration": 2000,
+          "amplifier": 0
+        }
+      },
+      {
+        "pipe": "greatwood",
+        "warp": 3
+      }
+    ],
+    "thaumaturgicbases:tobacco_fighting": [
+      {
+        "effect": {
+          "id": "minecraft:strength",
+          "duration": 8000,
+          "amplifier": 1
+        }
+      },
+      {
+        "pipe": "silverwood",
+        "chance": 0.1,
+        "effect": {
+          "id": "minecraft:resistance",
+          "duration": 8000,
+          "amplifier": 0
+        }
+      }
+    ],
+    "thaumaturgicbases:tobacco_hunger": [
+      {
+        "nutrition": 3,
+        "saturation": 3.0
+      },
+      {
+        "pipe": "greatwood",
+        "chance": 0.4,
+        "effect": {
+          "id": "minecraft:nausea",
+          "duration": 200,
+          "amplifier": 0
+        }
+      }
+    ],
+    "thaumaturgicbases:tobacco_knowledge": [
+      {
+        "pipe": "greatwood",
+        "knowledge": {
+          "rolls": 3,
+          "categories": [
+            "thaumaturge:auromancy",
+            "thaumaturge:alchemy",
+            "thaumaturge:artifice",
+            "thaumaturge:infusion",
+            "thaumaturge:golemancy",
+            "thaumaturge:eldritch"
+          ],
+          "warp_category": "thaumaturge:eldritch",
+          "warp": 1
+        }
+      },
+      {
+        "pipe": "silverwood",
+        "knowledge": {
+          "rolls": 6,
+          "categories": [
+            "thaumaturge:auromancy",
+            "thaumaturge:alchemy",
+            "thaumaturge:artifice",
+            "thaumaturge:infusion",
+            "thaumaturge:golemancy",
+            "thaumaturge:eldritch"
+          ]
+        }
+      }
+    ],
+    "thaumaturgicbases:tobacco_mining": [
+      {
+        "effect": {
+          "id": "minecraft:haste",
+          "duration": 8000,
+          "amplifier": 1
+        }
+      },
+      {
+        "pipe": "silverwood",
+        "chance": 0.3,
+        "effect": {
+          "id": "minecraft:night_vision",
+          "duration": 8000,
+          "amplifier": 0
+        }
+      }
+    ],
+    "thaumaturgicbases:tobacco_sanity": [
+      {
+        "pipe": "greatwood",
+        "chance": 0.4,
+        "warp": -1
+      },
+      {
+        "pipe": "silverwood",
+        "chance": 0.6,
+        "warp": -1
+      },
+      {
+        "pipe": "silverwood",
+        "chance": 0.1,
+        "warp": -1,
+        "warp_type": "normal"
+      }
+    ],
+    "thaumaturgicbases:tobacco_tainted": [
+      {
+        "pipe": "greatwood",
+        "warp": 1,
+        "warp_max": 3
+      },
+      {
+        "pipe": "greatwood",
+        "chance": 0.4,
+        "warp": 1,
+        "warp_type": "normal"
+      },
+      {
+        "pipe": "silverwood",
+        "break_pipe": true
+      }
+    ],
+    "thaumaturgicbases:tobacco_wispy": [
+      {
+        "pipe": "greatwood",
+        "spawn": "thaumaturge:wisp"
+      },
+      {
+        "pipe": "silverwood",
+        "spawn": "thaumaturge:wisp",
+        "spawn_avoids_aspect": "thaumaturge:vitium"
+      }
+    ]
+  }
+}

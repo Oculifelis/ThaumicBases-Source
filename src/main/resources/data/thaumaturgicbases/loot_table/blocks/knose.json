@@ -1,0 +1,397 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thaumaturgicbases:knose_seed"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "air",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:auromancy",
+                          "amount": 2
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "air"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_air"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "fire",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:alchemy",
+                          "amount": 2
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "fire"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_fire"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "water",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:infusion",
+                          "amount": 2
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "water"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_water"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "earth",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:golemancy",
+                          "amount": 2
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "earth"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_earth"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "order",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:artifice",
+                          "amount": 2
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "order"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_order"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "entropy",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:eldritch",
+                          "amount": 2
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "entropy"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_entropy"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "mixed",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:auromancy",
+                          "amount": 1
+                        },
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:alchemy",
+                          "amount": 1
+                        },
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:infusion",
+                          "amount": 1
+                        },
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:golemancy",
+                          "amount": 1
+                        },
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:artifice",
+                          "amount": 1
+                        },
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:eldritch",
+                          "amount": 1
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "mixed"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_mixed"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "thaumaturgicbases:knose_fragment",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "thaumaturgicbases:knose_insight": {
+                      "variant": "tainted",
+                      "grants": [
+                        {
+                          "type": "observation",
+                          "category": "thaumaturge:eldritch",
+                          "amount": 3
+                        },
+                        {
+                          "type": "theory",
+                          "category": "thaumaturge:eldritch",
+                          "amount": 1
+                        }
+                      ],
+                      "warp": 2
+                    }
+                  }
+                },
+                {
+                  "function": "minecraft:set_custom_model_data",
+                  "strings": {
+                    "values": [
+                      "tainted"
+                    ],
+                    "mode": "replace_all"
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "thaumaturgicbases:crystal_block_tainted"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "thaumaturgicbases:knose",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ]
+    }
+  ]
+}

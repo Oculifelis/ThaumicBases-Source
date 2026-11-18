@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 1
+    }
+  ],
+  "catalyst": "thaumaturgicbases:knose_fragment",
+  "research": {
+    "entry": "thaumaturgicbases:knose"
+  },
+  "result": {
+    "id": "thaumaturge:curio_knowledge"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "color": 7419030,
+  "steps": [
+    {
+      "modifiers": [
+        "fading"
+      ],
+      "set_modifier": "pale",
+      "ticks": 6000
+    },
+    {
+      "modifiers": [
+        "pale"
+      ],
+      "set_modifier": "none",
+      "ticks": 12000
+    },
+    {
+      "type": "dark",
+      "modifiers": [
+        "none",
+        "bright"
+      ],
+      "set_type": "normal",
+      "ticks": 2400
+    },
+    {
+      "type": "hungry",
+      "modifiers": [
+        "none",
+        "bright"
+      ],
+      "set_type": "normal",
+      "ticks": 600
+    },
+    {
+      "type": "unstable",
+      "modifiers": [
+        "none",
+        "bright"
+      ],
+      "set_type": "normal",
+      "ticks": 4200
+    },
+    {
+      "type": "tainted",
+      "modifiers": [
+        "none",
+        "bright"
+      ],
+      "set_type": "normal",
+      "ticks": 36000
+    }
+  ]
+}

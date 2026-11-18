@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "thaumaturgicbases:quicksilver_block"
+  ],
+  "result": {
+    "id": "thaumaturge:quicksilver",
+    "count": 9
+  }
+}

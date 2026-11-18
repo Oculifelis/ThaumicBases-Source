@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "model": "thaumaturgicbases:block/attached_redlon_stem"
+    },
+    "facing=north": {
+      "model": "thaumaturgicbases:block/attached_redlon_stem",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "thaumaturgicbases:block/attached_redlon_stem",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "thaumaturgicbases:block/attached_redlon_stem",
+      "y": 270
+    }
+  }
+}

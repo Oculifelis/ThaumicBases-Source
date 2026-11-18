@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "open=false": {
+      "model": "thaumaturgicbases:block/aurelia_closed"
+    },
+    "open=true": {
+      "model": "thaumaturgicbases:block/aurelia_open"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "#": "thaumaturge:plank_greatwood",
+    "@": "thaumaturge:salis_mundus"
+  },
+  "pattern": [
+    "#@ ",
+    " ##"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:tobacco"
+  },
+  "result": {
+    "id": "thaumaturgicbases:greatwood_pipe"
+  },
+  "vis": 4
+}

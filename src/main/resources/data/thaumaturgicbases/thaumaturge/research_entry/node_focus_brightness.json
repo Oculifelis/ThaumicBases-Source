@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.node_focus_brightness.title",
+  "parents": [
+    "thaumaturgicbases:node_manipulator"
+  ],
+  "column": 0,
+  "row": -11,
+  "icons": [
+    "thaumaturgicbases:node_focus"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.node_focus_brightness.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.node_focus_brightness.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/node_focus_brightness"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "#": "thaumaturge:ingot_thaumium",
+    "@": "thaumaturge:smelter_basic",
+    "$": "thaumaturge:bellows"
+  },
+  "pattern": [
+    "# #",
+    "#@#",
+    "$$$"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:advanced_alchemical_furnace"
+  },
+  "result": {
+    "id": "thaumaturgicbases:advanced_alchemical_furnace"
+  },
+  "vis": 50
+}

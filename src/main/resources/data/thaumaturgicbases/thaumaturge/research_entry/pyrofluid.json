@@ -1,0 +1,45 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.pyrofluid.title",
+  "parents": [
+    "thaumaturge:base_alchemy"
+  ],
+  "column": 1,
+  "row": 6,
+  "icons": [
+    "thaumaturgicbases:pyrofluid_bucket"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.pyrofluid.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.pyrofluid.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/pyrofluid_bucket"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 2
+    }
+  ],
+  "complexity": 3
+}

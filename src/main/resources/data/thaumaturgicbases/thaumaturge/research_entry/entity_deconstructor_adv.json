@@ -1,0 +1,43 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.entity_deconstructor_adv.title",
+  "parents": [
+    "thaumaturgicbases:entity_deconstructor",
+    "thaumaturgicbases:crystal_blocks"
+  ],
+  "column": 5,
+  "row": -3,
+  "icons": [
+    "thaumaturgicbases:crystal_block_mixed"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.entity_deconstructor_adv.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.entity_deconstructor_adv.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

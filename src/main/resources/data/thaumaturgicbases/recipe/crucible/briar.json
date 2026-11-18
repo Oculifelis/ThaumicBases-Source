@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:rose_bush",
+  "research": {
+    "entry": "thaumaturgicbases:briar"
+  },
+  "result": {
+    "id": "thaumaturgicbases:briar"
+  }
+}

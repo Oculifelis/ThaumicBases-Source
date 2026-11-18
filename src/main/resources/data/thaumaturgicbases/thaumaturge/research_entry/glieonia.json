@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.glieonia.title",
+  "parents": [
+    "thaumaturgicbases:aurelia"
+  ],
+  "column": -12,
+  "row": 1,
+  "icons": [
+    "thaumaturgicbases:glieonia_seed"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.glieonia.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.glieonia.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/glieonia_seed"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:lux",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturgicbases:tobacco_pile",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:essentia_crystal"
+  ],
+  "instability": 1,
+  "research": {
+    "entry": "thaumaturgicbases:tobacco_wispy"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_wispy"
+  }
+}

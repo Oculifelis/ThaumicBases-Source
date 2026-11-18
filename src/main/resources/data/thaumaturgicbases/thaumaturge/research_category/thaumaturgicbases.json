@@ -1,0 +1,33 @@
+{
+  "background": "thaumaturgicbases:textures/gui/research_back.png",
+  "formula": [
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 5
+    }
+  ],
+  "icon": "thaumaturgicbases:textures/misc/category_icon.png",
+  "index": 15,
+  "overlay_background": "thaumaturge:textures/gui/gui_research_back_over.png",
+  "required_research": "thaumaturge:unlock_alchemy"
+}

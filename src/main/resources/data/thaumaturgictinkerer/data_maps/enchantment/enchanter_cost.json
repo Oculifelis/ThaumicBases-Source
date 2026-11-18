@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgictinkerer"
+    }
+  ],
+  "values": {
+    "thaumaturgicbases:elder_knowledge": {
+      "aer": 8,
+      "ordo": 12,
+      "terra": 16
+    },
+    "thaumaturgicbases:eldritch_bane": {
+      "ignis": 12,
+      "perditio": 12,
+      "ordo": 8
+    },
+    "thaumaturgicbases:magic_touch": {
+      "ignis": 16,
+      "ordo": 16,
+      "aqua": 8,
+      "perditio": 12
+    },
+    "thaumaturgicbases:tainted": {
+      "ignis": 12,
+      "perditio": 16
+    },
+    "thaumaturgicbases:vaporising": {
+      "perditio": 8,
+      "ordo": 12,
+      "ignis": 16
+    }
+  }
+}

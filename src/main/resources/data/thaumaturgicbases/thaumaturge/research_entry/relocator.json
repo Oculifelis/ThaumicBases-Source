@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.relocator.title",
+  "parents": [
+    "thaumaturge:levitator"
+  ],
+  "column": 6,
+  "row": 7,
+  "icons": [
+    "thaumaturgicbases:relocator"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.relocator.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.relocator.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/relocator",
+        "thaumaturgicbases:arcane/inverse_relocator"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "bloody_mess"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "#": "thaumaturgicbases:bloody_cloth"
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:bloody_robes"
+  },
+  "result": {
+    "id": "thaumaturgicbases:bloody_leggings"
+  },
+  "vis": 5
+}

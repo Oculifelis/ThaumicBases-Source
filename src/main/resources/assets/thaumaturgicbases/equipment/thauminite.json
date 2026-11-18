@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "thaumaturgicbases:thauminite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "thaumaturgicbases:thauminite"
+      }
+    ]
+  }
+}

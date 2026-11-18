@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:wheat_seeds",
+  "research": {
+    "entry": "thaumaturgicbases:metalleat"
+  },
+  "result": {
+    "id": "thaumaturgicbases:metalleat_seeds"
+  }
+}

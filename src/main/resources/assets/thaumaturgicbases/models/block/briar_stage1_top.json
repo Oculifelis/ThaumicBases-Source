@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "thaumaturgicbases:block/briar_empty",
+    "particle": "thaumaturgicbases:block/briar_stage1_bot"
+  }
+}

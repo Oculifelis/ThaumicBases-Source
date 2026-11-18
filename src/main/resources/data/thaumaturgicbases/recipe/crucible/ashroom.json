@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturge:vishroom",
+  "research": {
+    "entry": "thaumaturgicbases:ashroom"
+  },
+  "result": {
+    "id": "thaumaturgicbases:ashroom"
+  }
+}

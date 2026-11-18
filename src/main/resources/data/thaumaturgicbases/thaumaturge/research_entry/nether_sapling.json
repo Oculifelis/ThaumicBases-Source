@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.nether_sapling.title",
+  "parents": [
+    "thaumaturgicbases:golden_oak"
+  ],
+  "column": -17,
+  "row": 0,
+  "icons": [
+    "thaumaturgicbases:nether_sapling"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.nether_sapling.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.nether_sapling.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/nether_sapling"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

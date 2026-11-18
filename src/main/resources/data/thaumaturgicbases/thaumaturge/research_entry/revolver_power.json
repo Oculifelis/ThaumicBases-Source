@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_power.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -16,
+  "row": -10,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/power.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_power.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_power.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_power_1",
+        "thaumaturgicbases:infusion/revolver_power_2",
+        "thaumaturgicbases:infusion/revolver_power_3",
+        "thaumaturgicbases:infusion/revolver_power_4",
+        "thaumaturgicbases:infusion/revolver_power_5"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

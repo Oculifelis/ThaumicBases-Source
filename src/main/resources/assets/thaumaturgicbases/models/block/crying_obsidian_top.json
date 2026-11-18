@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thaumaturgicbases:block/crying_obsidian_end",
+    "side": "thaumaturgicbases:block/crying_obsidian_side_top"
+  }
+}

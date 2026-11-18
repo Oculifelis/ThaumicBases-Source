@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "thaumaturgicbases:block/advanced_alchemical_furnace_top",
+    "bottom": "thaumaturgicbases:block/advanced_alchemical_furnace_bottom",
+    "side": "thaumaturgicbases:block/advanced_alchemical_furnace_side",
+    "front": "thaumaturgicbases:block/advanced_alchemical_furnace_front_on"
+  }
+}

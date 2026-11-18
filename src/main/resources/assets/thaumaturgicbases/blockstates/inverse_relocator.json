@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "thaumaturgicbases:block/inverse_relocator"
+    },
+    "facing=down": {
+      "model": "thaumaturgicbases:block/inverse_relocator",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "thaumaturgicbases:block/inverse_relocator",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "thaumaturgicbases:block/inverse_relocator",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thaumaturgicbases:block/inverse_relocator",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thaumaturgicbases:block/inverse_relocator",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

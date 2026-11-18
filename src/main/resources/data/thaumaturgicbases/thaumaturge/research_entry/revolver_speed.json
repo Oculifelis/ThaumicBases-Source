@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_speed.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -19,
+  "row": -9,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/speed.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_speed.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_speed.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_speed_1",
+        "thaumaturgicbases:infusion/revolver_speed_2",
+        "thaumaturgicbases:infusion/revolver_speed_3",
+        "thaumaturgicbases:infusion/revolver_speed_4",
+        "thaumaturgicbases:infusion/revolver_speed_5"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

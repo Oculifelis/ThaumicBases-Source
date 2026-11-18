@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.void_seed.title",
+  "parents": [
+    "thaumaturge:base_eldritch"
+  ],
+  "column": 16,
+  "row": 3,
+  "icons": [
+    "thaumaturgicbases:void_plant_seed"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.void_seed.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:eldritch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.void_seed.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/void_plant_seed"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

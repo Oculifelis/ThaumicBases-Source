@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:bestia",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 6
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_damage": {
+        "upgrade": "thaumaturgicbases:bane_of_arthropods",
+        "level": 2
+      }
+    }
+  },
+  "components": [
+    "minecraft:spider_eye",
+    "minecraft:fermented_spider_eye",
+    "minecraft:spider_eye",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_bane_of_arthropods"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_damage": {
+      "upgrade": "thaumaturgicbases:bane_of_arthropods",
+      "level": 3
+    }
+  }
+}

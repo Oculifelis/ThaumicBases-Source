@@ -1,0 +1,47 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.alchemy_restoration.title",
+  "parents": [
+    "thaumaturge:base_alchemy"
+  ],
+  "column": -3,
+  "row": 4,
+  "icons": [
+    "minecraft:packed_ice"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.alchemy_restoration.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.alchemy_restoration.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/restore_chiseled_bricks",
+        "thaumaturgicbases:crucible/restore_cobblestone",
+        "thaumaturgicbases:crucible/restore_packed_ice"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:gelum",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

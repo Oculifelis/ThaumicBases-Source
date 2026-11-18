@@ -1,0 +1,52 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.backprocessing.title",
+  "parents": [
+    "thaumaturgicbases:alchemy_restoration",
+    "thaumaturgicbases:advanced_entropy"
+  ],
+  "column": -6,
+  "row": 3,
+  "icons": [
+    "minecraft:sugar_cane"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.backprocessing.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.backprocessing.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/backprocess_blaze_rod",
+        "thaumaturgicbases:crucible/backprocess_bone",
+        "thaumaturgicbases:crucible/backprocess_sugar_cane",
+        "thaumaturgicbases:crucible/backprocess_cactus"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 8
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

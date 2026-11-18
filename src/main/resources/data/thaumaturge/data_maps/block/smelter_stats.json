@@ -1,0 +1,8 @@
+{
+  "values": {
+    "thaumaturgicbases:advanced_alchemical_furnace": {
+      "efficiency": 0.8,
+      "smelt_interval": 15
+    }
+  }
+}

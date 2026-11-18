@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.thaumic_spike.title",
+  "parents": [
+    "thaumaturgicbases:iron_spike",
+    "thaumaturge:metallurgy"
+  ],
+  "column": 13,
+  "row": -3,
+  "icons": [
+    "thaumaturgicbases:thaumic_spike"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.thaumic_spike.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.thaumic_spike.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/thaumic_spike"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

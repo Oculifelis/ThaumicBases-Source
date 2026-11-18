@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_damage": {
+        "upgrade": "thaumaturgicbases:none",
+        "level": 0
+      }
+    }
+  },
+  "components": [
+    "minecraft:gunpowder",
+    "thaumaturge:salis_mundus",
+    "minecraft:fire_charge",
+    "thaumaturge:salis_mundus",
+    "minecraft:firework_rocket"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_power"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_damage": {
+      "upgrade": "thaumaturgicbases:power",
+      "level": 1
+    }
+  }
+}

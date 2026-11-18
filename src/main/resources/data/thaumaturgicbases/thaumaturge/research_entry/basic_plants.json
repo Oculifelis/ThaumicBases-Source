@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.basic_plants.title",
+  "parents": [
+    "thaumaturge:base_alchemy"
+  ],
+  "column": -8,
+  "row": -2,
+  "icons": [
+    "minecraft:wheat_seeds"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.basic_plants.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.basic_plants.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/sweed_seeds"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "round"
+  ]
+}

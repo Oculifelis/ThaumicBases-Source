@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "has_focus=false": {
+      "model": "thaumaturgicbases:block/node_manipulator"
+    },
+    "has_focus=true": {
+      "model": "thaumaturgicbases:block/node_manipulator_focused"
+    }
+  }
+}

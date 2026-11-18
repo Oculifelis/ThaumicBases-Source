@@ -1,0 +1,42 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 80
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 32
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:thaumometer",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:node_stabilizer_advanced",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:thaumometer",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:node_stabilizer_advanced"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_hunger"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:hunger"
+    }
+  }
+}

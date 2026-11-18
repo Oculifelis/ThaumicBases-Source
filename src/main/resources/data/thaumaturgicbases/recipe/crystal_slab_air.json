@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "thaumaturgicbases:crystal_block_air"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:crystal_slab_air",
+    "count": 6
+  }
+}

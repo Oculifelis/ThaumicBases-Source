@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.node_focus_sinister.title",
+  "parents": [
+    "thaumaturgicbases:node_manipulator"
+  ],
+  "column": -3,
+  "row": -10,
+  "icons": [
+    "thaumaturgicbases:node_focus"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.node_focus_sinister.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.node_focus_sinister.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/node_focus_sinister"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

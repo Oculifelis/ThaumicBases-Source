@@ -1,0 +1,15 @@
+{
+  "color": 6569051,
+  "steps": [
+    {
+      "type": "normal",
+      "set_type": "pure",
+      "ticks": 3600
+    },
+    {
+      "type": "tainted",
+      "set_type": "normal",
+      "ticks": 39600
+    }
+  ]
+}

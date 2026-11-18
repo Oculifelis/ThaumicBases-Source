@@ -1,0 +1,47 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_eldritch.title",
+  "parents": [
+    "thaumaturgicbases:tobacco",
+    "thaumaturge:infusion"
+  ],
+  "column": 14,
+  "row": -7,
+  "icons": [
+    "thaumaturgicbases:tobacco_eldritch"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_eldritch.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ],
+      "warp": 2
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_eldritch.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/tobacco_eldritch"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

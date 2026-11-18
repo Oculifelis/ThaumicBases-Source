@@ -1,0 +1,42 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 16
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_piercing": {
+        "upgrade": "thaumaturgicbases:none",
+        "level": 0
+      }
+    }
+  },
+  "components": [
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:diamond_sword",
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:arrow"
+  ],
+  "instability": 12,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_piercing"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_piercing": {
+      "upgrade": "thaumaturgicbases:piercing",
+      "level": 1
+    }
+  }
+}

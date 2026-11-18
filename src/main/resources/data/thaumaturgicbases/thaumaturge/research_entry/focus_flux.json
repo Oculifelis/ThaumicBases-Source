@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.focus_flux.title",
+  "parents": [
+    "thaumaturge:infusion",
+    "thaumaturge:warded_jars",
+    "thaumaturge:flux_scrubber"
+  ],
+  "column": -2,
+  "row": -1,
+  "icons": [
+    "focus:thaumaturgicbases:flux_scrub"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.focus_flux.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.focus_flux.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/focus_flux"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 1
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

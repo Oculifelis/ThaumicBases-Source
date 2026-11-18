@@ -1,0 +1,278 @@
+{
+  "replace": false,
+  "values": {
+    "thaumaturgicbases:knose_fragment": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 2
+      }
+    ],
+    "thaumaturgicbases:aurelia_petal": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:auram",
+        "amount": 2
+      }
+    ],
+    "thaumaturgicbases:briar_seedbag": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 2
+      }
+    ],
+    "thaumaturgicbases:tobacco_leaves": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 1
+      }
+    ],
+    "thaumaturgicbases:bloody_cloth": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 2
+      }
+    ],
+    "thaumaturgicbases:herobrines_scythe": [
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 16
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 12
+      },
+      {
+        "aspect": "thaumaturge:aversio",
+        "amount": 16
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 8
+      }
+    ],
+    "thaumaturgicbases:golden_oak_leaves": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 1
+      }
+    ],
+    "thaumaturgicbases:ender_log": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 1
+      }
+    ],
+    "thaumaturgicbases:stripped_ender_log": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 1
+      }
+    ],
+    "thaumaturgicbases:ender_leaves": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 1
+      }
+    ],
+    "thaumaturgicbases:nether_log": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:mod_loaded",
+            "modid": "forbidden"
+          }
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 2
+        }
+      ]
+    },
+    "thaumaturgicbases:stripped_nether_log": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:mod_loaded",
+            "modid": "forbidden"
+          }
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 2
+        }
+      ]
+    },
+    "thaumaturgicbases:nether_leaves": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:mod_loaded",
+            "modid": "forbidden"
+          }
+        }
+      ],
+      "value": [
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 1
+        }
+      ]
+    },
+    "#thaumaturgicbases:aspects/nether_logs": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "forbidden"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "forbidden:infernus",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 4
+        }
+      ]
+    },
+    "#thaumaturgicbases:aspects/nether_leaves": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "forbidden"
+        }
+      ],
+      "value": [
+        {
+          "aspect": "forbidden:infernus",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 1
+        }
+      ]
+    },
+    "thaumaturgicbases:peaceful_log": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 1
+      }
+    ],
+    "thaumaturgicbases:stripped_peaceful_log": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 1
+      }
+    ],
+    "thaumaturgicbases:peaceful_leaves": [
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 1
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 1
+      }
+    ]
+  }
+}

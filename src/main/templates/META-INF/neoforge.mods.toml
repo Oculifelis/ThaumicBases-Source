@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Modbder (original Thaumic Bases), GTNH team (1.7.10 maintenance), Oculifelis (port to Thaumaturge)"
+credits="Original mod and textures by Modbder (CC0). GTNewHorizons/ThaumicBases maintainers. Thaumaturge by Leclowndu93150 and contributors."
+description='''
+A port of Thaumic Bases (Thaumcraft 4 addon, GTNH 1.9.22) to Thaumaturge on NeoForge 26.1.2, without DummyCore.
+It adds Thauminite gear, magical crops and trees, node foci and the Revolver.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="thaumaturge"
+    type="required"
+    versionRange="${thaumaturge_version_range}"
+    ordering="AFTER"
+    side="BOTH"

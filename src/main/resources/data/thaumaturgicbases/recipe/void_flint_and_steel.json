@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "thaumaturge:ingot_void",
+    "C": "minecraft:flint"
+  },
+  "pattern": [
+    "# ",
+    " C"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:void_flint_and_steel"
+  }
+}

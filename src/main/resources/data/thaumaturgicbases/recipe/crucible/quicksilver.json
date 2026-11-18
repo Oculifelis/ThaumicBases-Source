@@ -1,0 +1,21 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 1
+    }
+  ],
+  "catalyst": "#thaumaturge:silverwood_logs",
+  "research": {
+    "entry": "thaumaturgicbases:quicksilver"
+  },
+  "result": {
+    "id": "thaumaturge:quicksilver",
+    "count": 3
+  }
+}

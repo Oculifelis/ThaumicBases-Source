@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturgicbases:tobacco_pile",
+  "research": {
+    "entry": "thaumaturgicbases:tobacco_mining"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_mining"
+  }
+}

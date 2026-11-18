@@ -1,0 +1,34 @@
+{
+  "color": 5130070,
+  "steps": [
+    {
+      "modifiers": [
+        "bright"
+      ],
+      "set_modifier": "none",
+      "ticks": 1200
+    },
+    {
+      "modifiers": [
+        "none"
+      ],
+      "set_modifier": "pale",
+      "ticks": 2400
+    },
+    {
+      "modifiers": [
+        "pale"
+      ],
+      "set_modifier": "fading",
+      "ticks": 3600
+    },
+    {
+      "modifiers": [
+        "fading"
+      ],
+      "set_modifier": "destroy",
+      "ticks": 7200
+    }
+  ],
+  "orb_interval": 200
+}

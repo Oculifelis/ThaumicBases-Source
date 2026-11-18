@@ -1,0 +1,80 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturge:sapling_silverwood",
+  "components": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "minecraft:ender_pearl",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "thaumaturge:nitor_yellow",
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl",
+    "thaumaturge:ethereal_bloom",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "minecraft:ender_pearl",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "thaumaturge:nitor_yellow"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumaturgicbases:ender_sapling"
+  },
+  "result": {
+    "id": "thaumaturgicbases:ender_sapling"
+  }
+}

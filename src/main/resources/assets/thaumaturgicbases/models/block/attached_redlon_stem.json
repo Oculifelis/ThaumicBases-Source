@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/stem_fruit",
+  "textures": {
+    "stem": "thaumaturgicbases:block/redlon_stem",
+    "upperstem": "thaumaturgicbases:block/redlon_stem_attached"
+  }
+}

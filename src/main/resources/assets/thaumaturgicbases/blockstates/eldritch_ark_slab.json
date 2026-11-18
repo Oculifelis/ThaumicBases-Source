@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thaumaturgicbases:block/eldritch_ark_slab"
+    },
+    "type=top": {
+      "model": "thaumaturgicbases:block/eldritch_ark_slab_top"
+    },
+    "type=double": {
+      "model": "thaumaturgicbases:block/eldritch_ark"
+    }
+  }
+}

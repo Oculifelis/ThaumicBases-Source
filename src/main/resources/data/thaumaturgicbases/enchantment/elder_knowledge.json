@@ -1,0 +1,45 @@
+{
+  "description": {
+    "translate": "enchantment.thaumaturgicbases.elder_knowledge"
+  },
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "primary_items": "#minecraft:swords",
+  "weight": 12,
+  "max_level": 5,
+  "min_cost": {
+    "base": 6,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 11,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": "#thaumaturgicbases:exclusive_set/thaumic",
+  "effects": {
+    "thaumaturgicbases:kill_knowledge": {
+      "chance": {
+        "type": "minecraft:lookup",
+        "values": [
+          0.16666666666666666,
+          0.2,
+          0.25,
+          0.3333333333333333,
+          0.5
+        ],
+        "fallback": 0.5
+      },
+      "categories": {
+        "thaumaturge:aer": "thaumaturge:auromancy",
+        "thaumaturge:ignis": "thaumaturge:alchemy",
+        "thaumaturge:aqua": "thaumaturge:infusion",
+        "thaumaturge:terra": "thaumaturge:golemancy",
+        "thaumaturge:ordo": "thaumaturge:artifice",
+        "thaumaturge:perditio": "thaumaturge:eldritch"
+      }
+    }
+  }
+}

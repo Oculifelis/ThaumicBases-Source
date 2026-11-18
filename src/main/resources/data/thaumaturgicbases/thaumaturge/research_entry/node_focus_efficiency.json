@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.node_focus_efficiency.title",
+  "parents": [
+    "thaumaturgicbases:node_manipulator"
+  ],
+  "column": -4,
+  "row": -8,
+  "icons": [
+    "thaumaturgicbases:node_focus"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.node_focus_efficiency.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.node_focus_efficiency.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/node_focus_efficiency"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

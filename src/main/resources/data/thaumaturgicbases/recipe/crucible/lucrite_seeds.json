@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:golden_carrot",
+  "research": {
+    "entry": "thaumaturgicbases:lucrite"
+  },
+  "result": {
+    "id": "thaumaturgicbases:lucrite_seeds"
+  }
+}

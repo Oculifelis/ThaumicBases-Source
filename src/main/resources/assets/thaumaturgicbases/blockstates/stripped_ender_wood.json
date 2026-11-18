@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "thaumaturgicbases:block/stripped_ender_wood"
+    },
+    "axis=z": {
+      "model": "thaumaturgicbases:block/stripped_ender_wood",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "thaumaturgicbases:block/stripped_ender_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

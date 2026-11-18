@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": {
+      "sprite": "thaumaturgicbases:block/crystal_block_mixed",
+      "force_translucent": true
+    },
+    "side": {
+      "sprite": "thaumaturgicbases:block/crystal_block_mixed",
+      "force_translucent": true
+    },
+    "top": {
+      "sprite": "thaumaturgicbases:block/crystal_block_mixed",
+      "force_translucent": true
+    }
+  }
+}

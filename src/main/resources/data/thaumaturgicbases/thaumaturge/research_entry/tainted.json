@@ -1,0 +1,50 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tainted.title",
+  "parents": [
+    "thaumaturge:infusion_enchantment"
+  ],
+  "column": -3,
+  "row": 9,
+  "icons": [
+    "minecraft:enchanted_book"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tainted.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ],
+      "warp": 3
+    },
+    {
+      "text": "research.thaumaturgicbases.tainted.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/enchant_tainted"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

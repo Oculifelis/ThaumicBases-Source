@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "thaumaturgicbases:block/stripped_nether_log"
+    },
+    "axis=z": {
+      "model": "thaumaturgicbases:block/stripped_nether_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "thaumaturgicbases:block/stripped_nether_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

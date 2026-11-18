@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_primal.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -15,
+  "row": -5,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/primal.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_primal.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ],
+      "warp": 4
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_primal.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_primal_1"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

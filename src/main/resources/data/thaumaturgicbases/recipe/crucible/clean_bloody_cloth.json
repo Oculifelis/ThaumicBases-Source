@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "bloody_mess"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    }
+  ],
+  "catalyst": "thaumaturgicbases:bloody_cloth",
+  "research": {
+    "entry": "thaumaturgicbases:iron_spike"
+  },
+  "result": {
+    "id": "thaumaturge:fabric"
+  }
+}

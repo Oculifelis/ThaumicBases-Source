@@ -1,0 +1,21 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:redstone",
+  "research": {
+    "entry": "thaumaturgicbases:simple_duplication"
+  },
+  "result": {
+    "id": "minecraft:redstone",
+    "count": 2
+  }
+}

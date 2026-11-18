@@ -1,0 +1,59 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturge:wand_rod_obsidian",
+  "components": [
+    "thaumaturge:wand_cap_thaumium",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "thaumaturge:wand_cap_thaumium",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:terra"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    }
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_obsidian"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_obsidian",
+        "rod": "thaumaturgicbases:bracelet_obsidian",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "obsidian"
+        ]
+      }
+    }
+  }
+}

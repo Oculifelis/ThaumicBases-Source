@@ -1,0 +1,16 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:gravel",
+  "research": {
+    "entry": "thaumaturgicbases:alchemy_restoration"
+  },
+  "result": {
+    "id": "minecraft:cobblestone"
+  }
+}

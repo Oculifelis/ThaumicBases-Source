@@ -1,0 +1,35 @@
+newmtl Material.001
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd #handle
+
+newmtl Material.003
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd #barrel
+
+newmtl Material.003_revolverDarkMetal.png
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd #metal
+
+newmtl Material.004
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd #metal
+
+newmtl Material.005
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd #metal
+
+newmtl Material.006
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd #gun
+
+newmtl Material.008
+Kd 1.0 1.0 1.0
+d 1.0
+map_Kd #press
+

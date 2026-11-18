@@ -1,0 +1,32 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "C": "thaumaturge:wand_cap_iron",
+    "I": "#c:ingots/iron",
+    "N": "#c:nuggets/iron"
+  },
+  "pattern": [
+    "CIC",
+    "N N"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_iron"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_iron",
+        "rod": "thaumaturgicbases:bracelet_iron",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "iron"
+        ]
+      }
+    }
+  },
+  "vis": 1
+}

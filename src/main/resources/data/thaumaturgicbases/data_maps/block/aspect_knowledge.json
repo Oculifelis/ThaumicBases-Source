@@ -1,0 +1,12 @@
+{
+  "values": {
+    "thaumaturgicbases:entity_deconstructor": {
+      "thaumaturge:aer": "thaumaturge:auromancy",
+      "thaumaturge:ignis": "thaumaturge:alchemy",
+      "thaumaturge:aqua": "thaumaturge:infusion",
+      "thaumaturge:terra": "thaumaturge:golemancy",
+      "thaumaturge:ordo": "thaumaturge:artifice",
+      "thaumaturge:perditio": "thaumaturge:eldritch"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.focus_experience.title",
+  "parents": [
+    "thaumaturge:infusion",
+    "thaumaturge:focus_break"
+  ],
+  "column": -2,
+  "row": -5,
+  "icons": [
+    "focus:thaumaturgicbases:experience"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.focus_experience.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.focus_experience.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/focus_experience"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:cognitio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 1
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

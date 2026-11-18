@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.peaceful_sapling.title",
+  "parents": [
+    "thaumaturgicbases:golden_oak"
+  ],
+  "column": -18,
+  "row": -1,
+  "icons": [
+    "thaumaturgicbases:peaceful_sapling"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.peaceful_sapling.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.peaceful_sapling.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/peaceful_sapling"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

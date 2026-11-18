@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "minecraft:allium",
+  "research": {
+    "entry": "thaumaturgicbases:fluxium"
+  },
+  "result": {
+    "id": "thaumaturgicbases:fluxium"
+  }
+}

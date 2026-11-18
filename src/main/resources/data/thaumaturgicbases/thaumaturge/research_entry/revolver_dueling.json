@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.revolver_dueling.title",
+  "parents": [
+    "thaumaturgicbases:revolver"
+  ],
+  "column": -15,
+  "row": -10,
+  "icons": [
+    "thaumaturgicbases:textures/research/revolver/dueling.png"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.revolver_dueling.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.revolver_dueling.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/revolver_dueling_1",
+        "thaumaturgicbases:infusion/revolver_dueling_2",
+        "thaumaturgicbases:infusion/revolver_dueling_3",
+        "thaumaturgicbases:infusion/revolver_dueling_4",
+        "thaumaturgicbases:infusion/revolver_dueling_5"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

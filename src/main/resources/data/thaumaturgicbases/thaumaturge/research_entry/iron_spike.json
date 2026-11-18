@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.iron_spike.title",
+  "parents": [
+    "thaumaturge:base_artifice"
+  ],
+  "column": 10,
+  "row": -3,
+  "icons": [
+    "thaumaturgicbases:iron_spike"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.iron_spike.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.iron_spike.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/iron_spike",
+        "thaumaturgicbases:crucible/clean_bloody_cloth"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    }
+  ],
+  "complexity": 1
+}

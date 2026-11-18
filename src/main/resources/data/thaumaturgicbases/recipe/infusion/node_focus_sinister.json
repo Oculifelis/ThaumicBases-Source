@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturgicbases:crystal_block_tainted",
+    "thaumaturge:pech_wand",
+    "thaumaturgicbases:crystal_block_mixed",
+    "thaumaturge:essentia_crystal",
+    "thaumaturgicbases:crystal_block_tainted",
+    "thaumaturge:pech_wand",
+    "thaumaturgicbases:crystal_block_mixed"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "thaumaturgicbases:node_focus_sinister"
+  },
+  "result": {
+    "id": "thaumaturgicbases:node_focus",
+    "components": {
+      "thaumaturgicbases:node_focus": "thaumaturgicbases:sinister"
+    }
+  }
+}

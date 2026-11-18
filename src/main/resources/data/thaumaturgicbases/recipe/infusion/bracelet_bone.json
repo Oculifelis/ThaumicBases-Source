@@ -1,0 +1,59 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:exanimis",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturge:wand_rod_bone",
+  "components": [
+    "thaumaturge:wand_cap_thaumium",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "thaumaturge:wand_cap_thaumium",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:perditio"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    }
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_bone"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_bone",
+        "rod": "thaumaturgicbases:bracelet_bone",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "bone"
+        ]
+      }
+    }
+  }
+}

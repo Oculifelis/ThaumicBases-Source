@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "minecraft:book",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "minecraft:paper"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:magic_touch"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "thaumaturgicbases:magic_touch": 1
+      }
+    }
+  }
+}

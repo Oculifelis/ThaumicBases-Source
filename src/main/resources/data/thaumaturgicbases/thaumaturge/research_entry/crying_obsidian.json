@@ -1,0 +1,48 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.crying_obsidian.title",
+  "parents": [
+    "thaumaturge:infusion"
+  ],
+  "column": 3,
+  "row": -4,
+  "icons": [
+    "thaumaturgicbases:crying_obsidian"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.crying_obsidian.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.crying_obsidian.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/crying_obsidian"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 4
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

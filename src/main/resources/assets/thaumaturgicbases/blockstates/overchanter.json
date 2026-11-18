@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "has_item=false,active=false": {
+      "model": "thaumaturgicbases:block/overchanter"
+    },
+    "has_item=false,active=true": {
+      "model": "thaumaturgicbases:block/overchanter"
+    },
+    "has_item=true,active=false": {
+      "model": "thaumaturgicbases:block/overchanter"
+    },
+    "has_item=true,active=true": {
+      "model": "thaumaturgicbases:block/overchanter"
+    }
+  }
+}

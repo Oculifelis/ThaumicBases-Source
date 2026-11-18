@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": {
+      "sprite": "thaumaturgicbases:block/crystal_block_mixed",
+      "force_translucent": true
+    }
+  }
+}

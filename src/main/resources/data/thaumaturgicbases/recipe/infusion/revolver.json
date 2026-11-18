@@ -1,0 +1,64 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 64
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 8
+    }
+  ],
+  "catalyst": "minecraft:iron_block",
+  "components": [
+    "minecraft:fire_charge",
+    "minecraft:gunpowder",
+    "thaumaturge:primal_charm",
+    "thaumaturge:log_greatwood",
+    "minecraft:gunpowder",
+    {
+      "neoforge:ingredient_type": "thaumaturge:focus_element",
+      "parts": [
+        "thaumaturge:fire"
+      ]
+    },
+    "minecraft:fire_charge",
+    "minecraft:gunpowder",
+    "minecraft:bow",
+    "thaumaturge:log_greatwood",
+    "minecraft:gunpowder",
+    "minecraft:redstone_torch"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicbases:revolver"
+  },
+  "result": {
+    "id": "thaumaturgicbases:revolver"
+  }
+}

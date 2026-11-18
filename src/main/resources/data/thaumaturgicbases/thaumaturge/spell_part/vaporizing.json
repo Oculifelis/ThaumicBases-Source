@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:ordo",
+  "behavior": {
+    "type": "thaumaturgicbases:experience",
+    "crystal_chance": 0.5
+  },
+  "color": 10485631,
+  "complexity": 5,
+  "icon": "thaumaturgicbases:textures/foci/vaporizing.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_experience"
+  },
+  "vis": 10.0
+}

@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 16
+    }
+  ],
+  "catalyst": "minecraft:obsidian",
+  "components": [
+    "minecraft:diamond",
+    "#minecraft:beds",
+    "minecraft:lapis_block",
+    "minecraft:lapis_block"
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:crying_obsidian"
+  },
+  "result": {
+    "id": "thaumaturgicbases:crying_obsidian"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "thaumaturge:block/levitator_top_off",
+    "down": "thaumaturge:block/levitator_bottom",
+    "north": "thaumaturge:block/levitator_side_off",
+    "south": "thaumaturge:block/levitator_side_off",
+    "east": "thaumaturge:block/levitator_side_off",
+    "west": "thaumaturge:block/levitator_side_off",
+    "particle": "thaumaturge:block/levitator_side_off"
+  }
+}

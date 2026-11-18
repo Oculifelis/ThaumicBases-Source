@@ -1,0 +1,104 @@
+{
+  "textures": {
+    "particle": "thaumaturgicbases:block/entity_deconstructor_base",
+    "plate": "thaumaturgicbases:block/entity_deconstructor_plate",
+    "base": "thaumaturgicbases:block/entity_deconstructor_base"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base"
+        },
+        "south": {
+          "texture": "#base"
+        },
+        "east": {
+          "texture": "#base"
+        },
+        "west": {
+          "texture": "#base"
+        },
+        "up": {
+          "texture": "#plate"
+        },
+        "down": {
+          "texture": "#base"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        1,
+        2
+      ],
+      "to": [
+        14,
+        1.6,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#plate"
+        },
+        "down": {
+          "texture": "#base",
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ]
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

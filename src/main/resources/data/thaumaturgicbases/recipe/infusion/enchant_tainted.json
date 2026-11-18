@@ -1,0 +1,27 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitium",
+      "amount": 4
+    }
+  ],
+  "catalyst": "minecraft:book",
+  "components": [
+    "thaumaturge:tainted_goo",
+    "thaumaturge:taint_tendril",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "thaumaturgicbases:tainted"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "thaumaturgicbases:tainted": 1
+      }
+    }
+  }
+}

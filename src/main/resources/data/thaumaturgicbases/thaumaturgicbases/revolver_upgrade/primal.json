@@ -1,0 +1,10 @@
+{
+  "slot": "round",
+  "max_level": 1,
+  "final_multiplier": 2.0,
+  "noclip": true,
+  "reload": {
+    "aversio": 2,
+    "shots": 1
+  }
+}

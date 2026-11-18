@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "logs=false,lit=false": {
+      "model": "thaumaturgicbases:block/brazier"
+    },
+    "logs=false,lit=true": {
+      "model": "thaumaturgicbases:block/brazier_lit"
+    },
+    "logs=true,lit=false": {
+      "model": "thaumaturgicbases:block/brazier"
+    },
+    "logs=true,lit=true": {
+      "model": "thaumaturgicbases:block/brazier_lit"
+    }
+  }
+}

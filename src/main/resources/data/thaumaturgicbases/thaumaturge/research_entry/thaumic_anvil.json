@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.thaumic_anvil.title",
+  "parents": [
+    "thaumaturge:metallurgy"
+  ],
+  "column": 10,
+  "row": 2,
+  "icons": [
+    "thaumaturgicbases:thaumic_anvil"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.thaumic_anvil.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.thaumic_anvil.stage_1",
+      "recipes": [
+        "thaumaturgicbases:arcane/thaumic_anvil"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 2
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

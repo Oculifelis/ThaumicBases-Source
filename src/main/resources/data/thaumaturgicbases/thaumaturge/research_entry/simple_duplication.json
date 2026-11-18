@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.simple_duplication.title",
+  "parents": [
+    "thaumaturge:base_alchemy"
+  ],
+  "column": 3,
+  "row": 5,
+  "icons": [
+    "minecraft:arrow"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.simple_duplication.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.simple_duplication.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/duplicate_arrow",
+        "thaumaturgicbases:crucible/duplicate_snowball",
+        "thaumaturgicbases:crucible/duplicate_redstone"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 6
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "round"
+  ]
+}

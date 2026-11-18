@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.tobacco_wispy.title",
+  "parents": [
+    "thaumaturgicbases:tobacco",
+    "thaumaturge:infusion"
+  ],
+  "column": 15,
+  "row": -9,
+  "icons": [
+    "thaumaturgicbases:tobacco_wispy"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.tobacco_wispy.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.tobacco_wispy.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/tobacco_wispy"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden",
+    "round"
+  ]
+}

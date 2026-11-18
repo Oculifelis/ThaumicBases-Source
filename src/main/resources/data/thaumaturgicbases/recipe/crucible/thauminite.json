@@ -1,0 +1,25 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "#c:ingots/thaumium",
+  "research": {
+    "entry": "thaumaturgicbases:thauminite"
+  },
+  "result": {
+    "id": "thaumaturgicbases:thauminite_nugget",
+    "count": 8
+  }
+}

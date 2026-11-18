@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "#": "#c:ingots/thauminite",
+    "|": "#c:rods/wooden"
+  },
+  "pattern": [
+    "#",
+    "|",
+    "|"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:thauminite"
+  },
+  "result": {
+    "id": "thaumaturgicbases:thauminite_shovel"
+  },
+  "vis": 15
+}

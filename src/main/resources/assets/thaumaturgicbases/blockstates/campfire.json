@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "logs=false,lit=false": {
+      "model": "thaumaturgicbases:block/campfire"
+    },
+    "logs=false,lit=true": {
+      "model": "thaumaturgicbases:block/campfire"
+    },
+    "logs=true,lit=false": {
+      "model": "thaumaturgicbases:block/campfire_logs"
+    },
+    "logs=true,lit=true": {
+      "model": "thaumaturgicbases:block/campfire_lit"
+    }
+  }
+}

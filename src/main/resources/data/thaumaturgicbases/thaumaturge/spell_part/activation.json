@@ -1,0 +1,13 @@
+{
+  "aspect": "thaumaturge:sensus",
+  "behavior": {
+    "type": "thaumaturgicbases:activation"
+  },
+  "color": 7855615,
+  "complexity": 3,
+  "icon": "thaumaturgicbases:textures/foci/activation.png",
+  "research": {
+    "entry": "thaumaturgicbases:focus_activation"
+  },
+  "vis": 0.15
+}

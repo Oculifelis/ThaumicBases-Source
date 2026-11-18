@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 2
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumaturgicbases:revolver",
+    "components": {
+      "thaumaturgicbases:revolver_barrel": {
+        "upgrade": "thaumaturgicbases:none",
+        "level": 0
+      }
+    }
+  },
+  "components": [
+    "#c:glass_panes",
+    "minecraft:carrot",
+    "#c:glass_panes",
+    "#c:glass_panes",
+    "thaumaturge:salis_mundus",
+    "#c:glass_panes"
+  ],
+  "instability": 1,
+  "research": {
+    "entry": "thaumaturgicbases:revolver_accuracy"
+  },
+  "catalyst_patch": {
+    "thaumaturgicbases:revolver_barrel": {
+      "upgrade": "thaumaturgicbases:accuracy",
+      "level": 1
+    }
+  }
+}

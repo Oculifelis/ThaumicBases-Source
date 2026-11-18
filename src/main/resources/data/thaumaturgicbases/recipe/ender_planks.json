@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#thaumaturgicbases:ender_logs"
+  ],
+  "result": {
+    "id": "thaumaturgicbases:ender_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "bloody_mess"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "*": "#c:nuggets/iron",
+    "#": "#c:ingots/iron",
+    "_": "minecraft:heavy_weighted_pressure_plate"
+  },
+  "pattern": [
+    " * ",
+    "*#*",
+    "#_#"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:iron_spike"
+  },
+  "result": {
+    "id": "thaumaturgicbases:iron_spike"
+  },
+  "vis": 1
+}

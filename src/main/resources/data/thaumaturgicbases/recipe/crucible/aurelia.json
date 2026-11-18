@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "flora"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 2
+    }
+  ],
+  "catalyst": "minecraft:pink_tulip",
+  "research": {
+    "entry": "thaumaturgicbases:aurelia"
+  },
+  "result": {
+    "id": "thaumaturgicbases:aurelia"
+  }
+}

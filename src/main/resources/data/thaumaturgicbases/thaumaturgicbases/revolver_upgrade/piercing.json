@@ -1,0 +1,9 @@
+{
+  "slot": "piercing",
+  "max_level": 1,
+  "pierce": true,
+  "match": {
+    "any": true
+  },
+  "match_per_level": 1.1
+}

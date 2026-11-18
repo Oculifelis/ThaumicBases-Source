@@ -1,0 +1,62 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.thauminite.title",
+  "parents": [
+    "thaumaturge:metallurgy"
+  ],
+  "column": 6,
+  "row": -1,
+  "icons": [
+    "thaumaturgicbases:thauminite_ingot"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.thauminite.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.thauminite.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/thauminite",
+        "thaumaturgicbases:thauminite_ingot_from_nuggets",
+        "thaumaturgicbases:thauminite_nugget",
+        "thaumaturgicbases:thauminite_block",
+        "thaumaturgicbases:thauminite_ingot_from_block",
+        "thaumaturgicbases:arcane/thauminite_sword",
+        "thaumaturgicbases:arcane/thauminite_pickaxe",
+        "thaumaturgicbases:arcane/thauminite_axe",
+        "thaumaturgicbases:arcane/thauminite_shovel",
+        "thaumaturgicbases:arcane/thauminite_hoe",
+        "thaumaturgicbases:arcane/thauminite_shears",
+        "thaumaturgicbases:arcane/thauminite_helmet",
+        "thaumaturgicbases:arcane/thauminite_chestplate",
+        "thaumaturgicbases:arcane/thauminite_leggings",
+        "thaumaturgicbases:arcane/thauminite_boots"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    }
+  ],
+  "complexity": 2,
+  "meta": [
+    "hidden"
+  ]
+}

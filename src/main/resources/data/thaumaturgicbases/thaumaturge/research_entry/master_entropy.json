@@ -1,0 +1,47 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.master_entropy.title",
+  "parents": [
+    "thaumaturgicbases:advanced_entropy"
+  ],
+  "column": -5,
+  "row": 1,
+  "icons": [
+    "minecraft:string"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.master_entropy.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.master_entropy.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/entropy_wool_4",
+        "thaumaturgicbases:crucible/entropy_sandstone_4",
+        "thaumaturgicbases:crucible/entropy_blaze_4"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:desiderium",
+      "amount": 2
+    }
+  ],
+  "complexity": 3
+}

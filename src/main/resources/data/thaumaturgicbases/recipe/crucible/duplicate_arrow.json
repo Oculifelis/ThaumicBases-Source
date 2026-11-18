@@ -1,0 +1,17 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:arrow",
+  "research": {
+    "entry": "thaumaturgicbases:simple_duplication"
+  },
+  "result": {
+    "id": "minecraft:arrow",
+    "count": 2
+  }
+}

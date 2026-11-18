@@ -1,0 +1,59 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:gelum",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 2
+    }
+  ],
+  "catalyst": "thaumaturge:wand_rod_ice",
+  "components": [
+    "thaumaturge:wand_cap_thaumium",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aqua"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "thaumaturge:wand_cap_thaumium",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:aqua"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    }
+  ],
+  "instability": 2,
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_ice"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_ice",
+        "rod": "thaumaturgicbases:bracelet_ice",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "ice"
+        ]
+      }
+    }
+  }
+}

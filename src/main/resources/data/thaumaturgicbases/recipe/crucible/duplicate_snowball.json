@@ -1,0 +1,17 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:gelum",
+      "amount": 1
+    }
+  ],
+  "catalyst": "minecraft:snowball",
+  "research": {
+    "entry": "thaumaturgicbases:simple_duplication"
+  },
+  "result": {
+    "id": "minecraft:snowball",
+    "count": 2
+  }
+}

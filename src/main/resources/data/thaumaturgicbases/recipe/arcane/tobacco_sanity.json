@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaturgicbases:feature",
+      "feature": "tobacco"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shapeless",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 1
+    }
+  ],
+  "ingredients": [
+    "thaumaturgicbases:tobacco_pile"
+  ],
+  "research": {
+    "entry": "thaumaturgicbases:tobacco_sanity"
+  },
+  "result": {
+    "id": "thaumaturgicbases:tobacco_sanity"
+  },
+  "vis": 10
+}

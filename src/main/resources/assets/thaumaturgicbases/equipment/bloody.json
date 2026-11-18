@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "thaumaturgicbases:bloody"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "thaumaturgicbases:bloody"
+      }
+    ]
+  }
+}

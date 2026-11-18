@@ -1,0 +1,44 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.ender_sapling.title",
+  "parents": [
+    "thaumaturgicbases:golden_oak"
+  ],
+  "column": -17,
+  "row": -2,
+  "icons": [
+    "thaumaturgicbases:ender_sapling"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.ender_sapling.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:infusion",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.ender_sapling.stage_1",
+      "recipes": [
+        "thaumaturgicbases:infusion/ender_sapling"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 4
+    }
+  ],
+  "complexity": 1,
+  "meta": [
+    "hidden"
+  ]
+}

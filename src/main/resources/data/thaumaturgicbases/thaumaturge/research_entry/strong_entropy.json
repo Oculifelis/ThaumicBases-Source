@@ -1,0 +1,46 @@
+{
+  "category": "thaumaturgicbases:thaumaturgicbases",
+  "name": "research.thaumaturgicbases.strong_entropy.title",
+  "parents": [
+    "thaumaturgicbases:advanced_entropy"
+  ],
+  "column": -1,
+  "row": 1,
+  "icons": [
+    "minecraft:sand"
+  ],
+  "stages": [
+    {
+      "text": "research.thaumaturgicbases.strong_entropy.stage_0",
+      "required_knowledge": [
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.thaumaturgicbases.strong_entropy.stage_1",
+      "recipes": [
+        "thaumaturgicbases:crucible/entropy_glass",
+        "thaumaturgicbases:crucible/entropy_gravel",
+        "thaumaturgicbases:crucible/entropy_iron_bars"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 2
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "round"
+  ]
+}

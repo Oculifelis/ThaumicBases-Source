@@ -1,0 +1,48 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 1
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 1
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "thaumaturge:focus_element",
+    "parts": [
+      "thaumaturge:break"
+    ]
+  },
+  "components": [
+    "minecraft:bucket",
+    "minecraft:bucket",
+    "thaumaturge:jar_void",
+    "thaumaturge:jar_void"
+  ],
+  "instability": 0,
+  "research": {
+    "entry": "thaumaturgicbases:focus_drain"
+  },
+  "result": {
+    "id": "thaumaturge:focus_1",
+    "components": {
+      "thaumaturge:spell": {
+        "style": "channeled",
+        "root": {
+          "part": "thaumaturge:origin",
+          "children": [
+            {
+              "part": "thaumaturgicbases:drain"
+            }
+          ]
+        }
+      },
+      "minecraft:item_name": {
+        "translate": "item.thaumaturgicbases.focus_drain"
+      }
+    }
+  }
+}

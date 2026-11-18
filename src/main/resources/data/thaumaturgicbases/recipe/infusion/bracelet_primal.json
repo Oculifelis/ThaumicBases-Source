@@ -1,0 +1,124 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 24
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:wand_cap_void",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturgicbases:casting_bracelet",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "reed"
+          ]
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturgicbases:casting_bracelet",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "bone"
+          ]
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturgicbases:casting_bracelet",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "obsidian"
+          ]
+        }
+      }
+    },
+    "thaumaturge:wand_cap_void",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturgicbases:casting_bracelet",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "blaze"
+          ]
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturgicbases:casting_bracelet",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "ice"
+          ]
+        }
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturgicbases:casting_bracelet",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "quartz"
+          ]
+        }
+      }
+    }
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumaturgicbases:bracelet_primal"
+  },
+  "result": {
+    "id": "thaumaturgicbases:casting_bracelet",
+    "components": {
+      "thaumaturge:wand_parts": {
+        "cap": "thaumaturgicbases:bracelet_primal",
+        "rod": "thaumaturgicbases:bracelet_primal",
+        "sceptre": false
+      },
+      "minecraft:custom_model_data": {
+        "strings": [
+          "primal"
+        ]
+      },
+      "thaumaturge:warp": 3
+    }
+  }
+}
